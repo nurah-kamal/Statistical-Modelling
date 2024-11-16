@@ -1,0 +1,6 @@
+Model Evaluation Results:
+Model Coefficients: [0.05450927 0.10094536 0.00433665]
+Intercept: 4.714126402214127
+Mean Squared Error (MSE): 2.9077569102710896
+Root Mean Squared Error (RMSE): 1.7052146229349223
+R-squared (R2): 0.9059011844150826
