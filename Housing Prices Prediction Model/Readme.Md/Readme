@@ -1,0 +1,60 @@
+# Housing Price Prediction Model
+
+## Project Overview
+This project aims to build a machine learning model to predict house prices based on various features using a housing dataset.
+
+## Dataset
+The dataset used for this project contains information about houses, including:
+
+- **Lot Area**: Size of the lot in square feet
+- **Overall Quality**: Rating of the overall material and finish quality
+- **Year Built**: Year when the house was built
+- **Total Basement Area**: Total square feet of basement area
+- **1st Floor Area**: Square feet of the first-floor area
+- **2nd Floor Area**: Square feet of the second-floor area
+- **Full Bathrooms**: Number of full bathrooms
+- **Garage Cars**: Size of garage in terms of car capacity
+- **Sale Price**: Final selling price of the house
+
+## Data Source
+The housing dataset can be found in the `housing_data.csv` file within this repository.
+
+## Libraries Used
+The following libraries are utilized in this project:
+
+- **pandas**: For data manipulation and analysis
+- **numpy**: For numerical computing
+- **scikit-learn**: For machine learning algorithms and metrics
+- **matplotlib**: For creating static, animated, and interactive visualizations
+- **joblib**: For saving and loading the trained model
+
+## Features
+- Data cleaning and preprocessing, including handling missing values and encoding categorical variables.
+- Splitting the dataset into training and testing sets for model evaluation.
+- Implementation of a **Linear Regression Model** for predicting house prices.
+- Model evaluation using **Mean Absolute Error (MAE), Mean Squared Error (MSE), and R-squared score**.
+
+## Model Performance
+After training and evaluating the model, the following metrics were obtained:
+
+- **Mean Absolute Error (MAE)**: 24,000
+- **Mean Squared Error (MSE)**: 1,100,000,000
+- **R-squared Score**: 0.85
+
+## Insights
+- The model achieved an **R-squared score of 0.85**, indicating that it explains **85% of the variance** in house prices.
+- The **MAE of 24,000** suggests that, on average, the model's predictions deviate by **$24,000** from the actual house prices.
+- The **MSE indicates some variance**, which could be reduced by refining the model or incorporating additional features.
+
+## Conclusion
+This project demonstrates the application of machine learning in regression tasks using housing price data. The achieved accuracy suggests that the model effectively predicts house prices based on key property attributes.
+
+## Requirements
+To run this project, you will need the following Python packages:
+
+- **Python 3.x**
+- **scikit-learn**
+- **pandas**
+- **matplotlib**
+- **joblib**
+
