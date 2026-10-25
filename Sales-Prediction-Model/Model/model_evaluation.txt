@@ -4,3 +4,7 @@ Intercept: 4.714126402214127
 Mean Squared Error (MSE): 2.9077569102710896
 Root Mean Squared Error (RMSE): 1.7052146229349223
 R-squared (R2): 0.9059011844150826
+Baseline RMSE (always predict the mean): 5.648216567255986
+Cross-validated R2 (5 folds): 0.8948237271535648 (folds [0.906 0.901 0.883 0.903 0.881])
+Cross-validated RMSE (5 folds): 1.6758189912638621
+Cross-validated baseline RMSE: 5.311634730676675

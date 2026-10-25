@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
-from sklearn.model_selection import train_test_split
+from sklearn.model_selection import train_test_split, KFold, cross_val_score
+from sklearn.dummy import DummyRegressor
 from sklearn.preprocessing import OneHotEncoder
 from sklearn.impute import SimpleImputer
 from sklearn.ensemble import RandomForestRegressor
@@ -19,7 +20,7 @@ print(data.head())
 #Formatting
 
 data['Year'] = pd.to_numeric(data['Year'], errors='coerce')
-data['Votes'] = pd.to_numeric(data['Votes'], errors='coerce')
+data['Votes'] = pd.to_numeric(data['Votes'].str.replace(',', ''), errors='coerce')  # votes like "1,086"
 data['Duration'] = pd.to_numeric(data['Duration'].str.replace(' min', ''), errors='coerce')
 
 # Dropping unncessary rows and columns
@@ -83,6 +84,19 @@ if nan_indices.any():
 
 print(f"Mean Absolute Error: {mae:.2f}")
 print(f"Root Mean Squared Error: {rmse:.2f}")
+
+# Baseline to beat: predict the average training rating for every film
+baseline = DummyRegressor(strategy='mean').fit(X_train, y_train)
+baseline_pred = baseline.predict(X_test)
+print(f"Baseline (always predict the mean) MAE: {mean_absolute_error(y_test, baseline_pred):.2f}, "
+      f"RMSE: {np.sqrt(mean_squared_error(y_test, baseline_pred)):.2f}")
+
+# 5-fold cross-validation on all the rated films
+kf = KFold(n_splits=5, shuffle=True, random_state=42)
+cv_mae = -cross_val_score(pipeline, X, y, cv=kf, scoring='neg_mean_absolute_error')
+cv_baseline = -cross_val_score(DummyRegressor(strategy='mean'), X, y, cv=kf, scoring='neg_mean_absolute_error')
+print(f"Cross-validated MAE: {cv_mae.mean():.2f} (folds {np.round(cv_mae, 2)})")
+print(f"Cross-validated baseline MAE: {cv_baseline.mean():.2f}")
 
 
 

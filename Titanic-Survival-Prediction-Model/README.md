@@ -1,79 +1,44 @@
-
 # Titanic Survival Prediction Model
 
-## Project Overview
+Who survived the Titanic? A random forest classifier on the Titanic passenger list ([`Titanic-Dataset.csv`](Titanic-Dataset.csv), 891 passengers, the training file from [Kaggle's Titanic competition](https://www.kaggle.com/c/titanic/data)).
 
-This project aims to build a machine learning model to predict whether a passenger on the Titanic survived or not using the Titanic dataset. This is a classic beginner project in data science and machine learning, often used to demonstrate various techniques in data preprocessing, feature engineering, model training, and evaluation.
+## How it works
 
-## Dataset
+[`Survival_Prediction_Model.py`](Survival_Prediction_Model.py) does the following:
 
-The dataset used for this project is the Titanic dataset, which contains information about individual passengers, including:
+- Drops the ID, name, ticket and cabin columns.
+- Fills missing ages with the median age and the two missing ports with the most common port. Sex becomes 0 or 1, and the port is one-hot encoded.
+- Uses class, sex, age, siblings or spouse aboard, parents or children aboard, fare and port as features.
+- Fits a random forest (100 trees) on an 80/20 train-test split with a fixed random seed, and prints the accuracy and the classification report.
+- Compares it with a baseline that predicts the most common outcome (did not survive) for everyone, and repeats the fit with stratified 5-fold cross-validation.
 
-- **PassengerId**: Unique ID for each passenger
-- **Pclass**: Ticket class (1st, 2nd, 3rd)
-- **Name**: Name of the passenger (not used in the model)
-- **Sex**: Gender of the passenger
-- **Age**: Age of the passenger
-- **SibSp**: Number of siblings/spouses aboard
-- **Parch**: Number of parents/children aboard
-- **Ticket**: Ticket number (not used in the model)
-- **Fare**: Fare paid by the passenger
-- **Cabin**: Cabin number (not used in the model)
-- **Embarked**: Port of embarkation (C = Cherbourg, Q = Queenstown, S = Southampton)
-- **Survived**: Survival status (0 = No, 1 = Yes)
+One fix: the missing values were filled with `fillna(..., inplace=True)` on a single column. Under pandas 3 that no longer changes the data frame, so the script now assigns the filled column back.
 
-### Data Source
-[Link to the Titanic Dataset](https://www.kaggle.com/c/titanic/data)
+## Results
 
-## Libraries Used
+From a run with the versions in [`requirements.txt`](../requirements.txt):
 
-The following libraries are utilized in this project:
+| | Random forest | Baseline (nobody survived) |
+| --- | --- | --- |
+| Accuracy on the test set (179 passengers) | 80% | 59% |
+| Accuracy, 5-fold cross-validation | 82.3% (folds 78.7% to 85.4%) | 61.6% |
 
-- `pandas`: For data manipulation and analysis
-- `numpy`: For numerical computing
-- `scikit-learn`: For machine learning algorithms and metrics
-- `seaborn`: For data visualization
-- `matplotlib`: For creating static, animated, and interactive visualizations
+On the test set:
 
-## Features
+```
+              precision    recall  f1-score   support
+           0       0.82      0.84      0.83       105
+           1       0.76      0.74      0.75        74
+```
 
-- Data cleaning and preprocessing, including handling missing values and encoding categorical variables.
-- Splitting the dataset into training and testing sets for model evaluation.
-- Implementation of a Random Forest Classifier for predicting survival.
-- Model evaluation using accuracy score and classification report.
+The model gets about 4 in 5 passengers right, against 3 in 5 for assuming nobody survived. It is better at spotting those who died than those who survived: about a quarter of the survivors in the test set were predicted to have died.
 
-## Model Performance
+Cautions: the median age is worked out from all 891 passengers before the split, so the test set leaks slightly into training. Most of the signal is sex and class, which a two-line rule ("women and first class survived") already captures, so the forest's gain over that simple rule would be worth measuring.
 
-After training and evaluating the model, the following metrics were obtained:
+## Run it
 
-- **Accuracy:** 80%
-- **Precision:**
-  - Class 0 (Did not survive): 0.82
-  - Class 1 (Survived): 0.76
-- **Recall:**
-  - Class 0: 0.84
-  - Class 1: 0.74
-- **F1-Score:**
-  - Class 0: 0.83
-  - Class 1: 0.75
-- **Support:**
-  - Class 0: 105
-  - Class 1: 74
-- **Macro Average:**
-  - Precision: 0.79
-  - Recall: 0.79
-  - F1-Score: 0.79
-- **Weighted Average:**
-  - Precision: 0.80
-  - Recall: 0.80
-  - F1-Score: 0.80
+From this folder:
 
-## Insights
-
-- The model achieved an accuracy of 80%, indicating good predictive performance.
-- Precision for non-survivors is higher than that for survivors, suggesting that the model is more reliable in predicting those who did not survive.
-- The recall for survivors is lower than for non-survivors, indicating that some actual survivors were not correctly identified.
-
-
-
-
+```bash
+python Survival_Prediction_Model.py
+```

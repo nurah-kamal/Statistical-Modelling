@@ -20,6 +20,8 @@ Iris-versicolor       1.00      1.00      1.00         9
 
 That says more about the dataset than about the model. Iris is famously easy to separate on petal size, and 30 test flowers is a small sample. On harder data, a perfect score should be treated as a sign of leakage until proven otherwise.
 
+With 5-fold cross-validation on all 150 flowers, accuracy is 95.3% (folds 100%, 96.7%, 93.3%, 93.3% and 93.3%), so the perfect test score was partly a lucky split. A baseline that always guesses the most common species scores 26% under the same cross-validation (30% on the test set). The script computed these folds before, but never printed them; it now does.
+
 ![The fitted decision tree](iris_decision_tree.png)
 
 ## Run it

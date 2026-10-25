@@ -4,6 +4,7 @@ from sklearn.tree import DecisionTreeClassifier
 import pandas as pd
 from sklearn.model_selection import KFold
 from sklearn.model_selection import cross_val_score
+from sklearn.dummy import DummyClassifier
 
 # Load the dataset
 iris_data = pd.read_csv("IRIS.csv")
@@ -37,6 +38,13 @@ confusion_matrix_result = confusion_matrix(y_test, y_pred)
 print(f"Accuracy: {accuracy:.2f}")
 print("Classification Report:\n", classification_report_result)
 print("Confusion Matrix:\n", confusion_matrix_result)
+
+# Cross-validated accuracy, and a baseline that always guesses the most common species
+baseline = DummyClassifier(strategy='most_frequent').fit(x_train, y_train)
+baseline_scores = cross_val_score(DummyClassifier(strategy='most_frequent'), x, y, cv=kf, scoring='accuracy')
+print(f"Cross-validated accuracy: {scores.mean():.3f} (folds {[round(float(s), 3) for s in scores]})")
+print(f"Baseline accuracy (most common species): test set {accuracy_score(y_test, baseline.predict(x_test)):.2f}, "
+      f"cross-validated {baseline_scores.mean():.3f}")
 
 #saving model
 import joblib
