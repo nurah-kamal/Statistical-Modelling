@@ -1,0 +1,28 @@
+Official rates Jan 1969 to Sep 2026; training from 2000-01, forecasts made every month from 2010-01
+
+Mean absolute error in percentage points of inflation, by months ahead
+         forecasts  Ridge on recent changes  No change (last rate)  Average of last 12 months  p (Ridge vs no change)
+horizon                                                                                                              
+1              200                    0.293                  0.296                      0.776                   0.763
+3              198                    0.662                  0.597                      0.949                   0.100
+6              195                    0.892                  0.870                      1.133                   0.796
+12             189                    1.110                  1.277                      1.356                   0.411
+
+Three months ahead, latest forecasts against what happened
+            actual  Ridge on recent changes  No change (last rate)  Average of last 12 months
+origin                                                                                       
+2025-06-01     3.4                     3.59                    3.0                       3.27
+2025-07-01     3.6                     4.30                    3.5                       3.18
+2025-08-01     3.5                     3.78                    3.3                       3.08
+2025-09-01     3.6                     3.91                    3.4                       3.05
+2025-10-01     3.5                     3.84                    3.6                       3.12
+2025-11-01     3.0                     3.68                    3.5                       3.17
+2025-12-01     3.1                     3.83                    3.6                       3.22
+2026-01-01     4.0                     3.62                    3.5                       3.24
+2026-02-01     4.5                     3.09                    3.0                       3.22
+2026-03-01     5.0                     3.45                    3.1                       3.26
+2026-04-01     4.3                     4.90                    4.0                       3.36
+2026-05-01     4.4                     5.46                    4.5                       3.50
+2026-06-01     4.5                     6.00                    5.0                       3.67
+
+Chart saved to cpi_forecast.png

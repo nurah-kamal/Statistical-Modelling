@@ -1,0 +1,3 @@
+Months: 693 of official rates (Jan 1969 to Sep 2026), 561 of index values
+Official rate against the rate implied by the rounded index, 2010 on: median gap 0.05 points, largest 0.30
+Wrote cpi_headline.csv
