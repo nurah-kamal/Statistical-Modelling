@@ -20,6 +20,8 @@ The first five use public teaching datasets, the next two use invented data from
 
 The first five are study projects on well-known teaching datasets, so they show that I can build, split, fit and evaluate a model properly. They are not original analysis. The two on synthetic data have an answer planted in advance, so they show whether a method finds what is really there and nothing else. The CPI forecast is on real data, and its honest answer is that a model did not beat the simplest guess. For the original analysis that data came from, see [SA Turnaround](https://github.com/nurah-kamal/reporting/tree/main/sa-turnaround).
 
+The calls behind how these are measured and laid out are in [DECISIONS.md](DECISIONS.md).
+
 ## Run one
 
 Python 3.12 with the versions in [`requirements.txt`](requirements.txt):
