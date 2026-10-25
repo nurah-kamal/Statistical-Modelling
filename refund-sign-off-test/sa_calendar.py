@@ -1,7 +1,7 @@
 """South African public holidays and working days.
 
 A Python port of src/holidays.js, src/declared.js and src/workdays.js from
-https://github.com/nurah-kamal/reporting-and-bi/tree/main/sa-turnaround. The rules and sources are in that
+https://github.com/nurah-kamal/reporting/tree/main/sa-turnaround. The rules and sources are in that
 repo's docs/HOLIDAY_RULES.md. Declared days are checked for 2009-2026 only.
 """
 from datetime import date, timedelta

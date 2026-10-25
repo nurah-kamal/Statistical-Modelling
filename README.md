@@ -13,11 +13,11 @@ Eight projects in Python with scikit-learn: five models I built while learning p
 | [Request Volume Forecast](request-volume-forecast/) | How many requests will a service desk get each day? | Poisson regression on weekday, month and SA public holidays, with a time-based split: 1.80 requests a day off, against 2.67 for "same as last week" |
 | [CPI Inflation Forecast](cpi-inflation-forecast/) | Can a simple model forecast South African inflation better than "it stays where it is"? | Ridge regression on recent changes, backtested every month from 2010 on Stats SA's official rates: no significant gain over "no change" at 1, 3, 6 or 12 months |
 
-The first five use public teaching datasets, the next two use invented data from [SA Turnaround](https://github.com/nurah-kamal/reporting-and-bi/tree/main/sa-turnaround), and the CPI forecast uses Statistics South Africa's CPI History, with the source and terms in its README. All the data is included in the folders.
+The first five use public teaching datasets, the next two use invented data from [SA Turnaround](https://github.com/nurah-kamal/reporting/tree/main/sa-turnaround), and the CPI forecast uses Statistics South Africa's CPI History, with the source and terms in its README. All the data is included in the folders.
 
 ## What these are, and what they are not
 
-The first five are study projects on well-known teaching datasets, so they show that I can build, split, fit and evaluate a model properly. They are not original analysis. The two on synthetic data have an answer planted in advance, so they show whether a method finds what is really there and nothing else. The CPI forecast is on real data, and its honest answer is that a model did not beat the simplest guess. For the original analysis that data came from, see [SA Turnaround](https://github.com/nurah-kamal/reporting-and-bi/tree/main/sa-turnaround).
+The first five are study projects on well-known teaching datasets, so they show that I can build, split, fit and evaluate a model properly. They are not original analysis. The two on synthetic data have an answer planted in advance, so they show whether a method finds what is really there and nothing else. The CPI forecast is on real data, and its honest answer is that a model did not beat the simplest guess. For the original analysis that data came from, see [SA Turnaround](https://github.com/nurah-kamal/reporting/tree/main/sa-turnaround).
 
 ## Run one
 
