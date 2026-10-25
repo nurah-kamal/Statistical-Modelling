@@ -1,0 +1,1447 @@
+{
+  "model": "gemini-3.5-flash-lite",
+  "rubric": "rubrics/ellipse.yaml",
+  "data": "data/sample.json",
+  "results": [
+    {
+      "id": "2B621C2F0716",
+      "item": "cohesion",
+      "score": 4,
+      "reason": "The essay uses basic linking words like because and and repeatedly, and the progression of ideas is often circular and difficult to follow.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "2B621C2F0716",
+      "item": "syntax",
+      "score": 4,
+      "reason": "The essay attempts a few complex structures and conditional clauses, but suffers from pervasive run-on sentences and frequent structural problems.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "2B621C2F0716",
+      "item": "vocabulary",
+      "score": 4,
+      "reason": "The vocabulary is narrow and repetitive, relying heavily on basic words like nice, good, wisdom, and friends, along with word form errors such as using angle instead of angel.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "2B621C2F0716",
+      "item": "phraseology",
+      "score": 3,
+      "reason": "The essay relies on a very narrow range of basic phrases like 'stay positive', 'go forward', and 'give out wisdom' which are heavily repeated throughout the text.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "2B621C2F0716",
+      "item": "grammar",
+      "score": 5,
+      "reason": "There are some noticeable errors in grammar and usage, such as comma splices, pronoun-antecedent shifts, and misused words like 'angle' instead of 'angel'.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "2B621C2F0716",
+      "item": "conventions",
+      "score": 6,
+      "reason": "The writer demonstrates a developing use of conventions with occasional errors in punctuation and spelling, such as lower-case \"i\" and misspelled words like \"angle\" and \"advise\", which are sometimes distracting.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "6B8C02811FF6",
+      "item": "cohesion",
+      "score": 3,
+      "reason": "Organisation is only partly developed with minimal logical sequence and basic linking words used inaccurately or repetitively.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "6B8C02811FF6",
+      "item": "syntax",
+      "score": 2,
+      "reason": "The essay displays pervasive basic errors in sentence structure and word order, such as run-on sentences and fractured clauses that cause significant confusion.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "6B8C02811FF6",
+      "item": "vocabulary",
+      "score": 2,
+      "reason": "The vocabulary is severely limited and often used inappropriately, as seen in phrases like 'put to go out a head' and 'make major people', showing very little control over word choice and word forms.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "6B8C02811FF6",
+      "item": "phraseology",
+      "score": 2,
+      "reason": "The essay relies heavily on broken phrase patterns and literal translations like 'put to go out a head' and 'change our to think', showing significant misuse and lack of natural phrasing.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "6B8C02811FF6",
+      "item": "grammar",
+      "score": 2,
+      "reason": "The essay contains pervasive errors in grammar, verb forms, word classes, and sentence structure throughout, such as in 'all we have that be our selves for put to go out a head'.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "6B8C02811FF6",
+      "item": "conventions",
+      "score": 2,
+      "reason": "There is minimal use of conventions with frequent spelling, punctuation, and capitalization errors throughout the text.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "C65705E1E072",
+      "item": "cohesion",
+      "score": 3,
+      "reason": "Organisation is only partly developed with repetitive and basic linking words like 'Based on' and 'and' used without a clear logical sequence.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "C65705E1E072",
+      "item": "syntax",
+      "score": 3,
+      "reason": "There is some attempt at sentence variation, but pervasive structural problems, awkward word order, and frequent fragments like 'Based on our support ,we going to discuss it' hinder clarity.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "C65705E1E072",
+      "item": "vocabulary",
+      "score": 3,
+      "reason": "The vocabulary is narrow and contains frequent errors in word choice and formation, such as 'altitude' instead of 'attitude', 'contaminate' instead of 'contaminated', and 'drogue' instead of 'drugs', which occasionally distorts the meaning.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "C65705E1E072",
+      "item": "phraseology",
+      "score": 3,
+      "reason": "The essay relies heavily on a narrow range of awkward and misused phrases such as 'Human has been said', 'make the problem grow up', and 'play a huge rule'.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "C65705E1E072",
+      "item": "grammar",
+      "score": 3,
+      "reason": "The essay contains many grammar and usage errors throughout, such as incorrect subject-verb agreement in 'Human has been said' and 'Does human can believe', along with frequent word form and preposition mistakes.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "C65705E1E072",
+      "item": "conventions",
+      "score": 3,
+      "reason": "The essay displays variable use of conventions with frequent spelling, punctuation, and grammatical errors throughout that often distract the reader.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "FF8A189E3BE4",
+      "item": "cohesion",
+      "score": 5,
+      "reason": "Organisation is generally controlled with some basic linking words and pronoun references, but these are often repetitive and mechanical.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "FF8A189E3BE4",
+      "item": "syntax",
+      "score": 3,
+      "reason": "The essay shows some sentence variation, but is hindered by run-on sentences, missing punctuation, and repetitive structure problems.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "FF8A189E3BE4",
+      "item": "vocabulary",
+      "score": 3,
+      "reason": "The vocabulary is narrow and repetitive, relying on basic words like 'good', 'bad', and 'person', with occasional typographical and form errors like 'became'.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "FF8A189E3BE4",
+      "item": "phraseology",
+      "score": 4,
+      "reason": "The essay relies on a narrow range of basic phrases like 'do whatever they want' and 'learn from its mistakes', with noticeable repetitions throughout.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "FF8A189E3BE4",
+      "item": "grammar",
+      "score": 5,
+      "reason": "The essay demonstrates some control of basic grammar and sentence structure, but contains notable errors such as missing capitalization ('i'), misused words ('became'), and fragmented or run-on sentences.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "FF8A189E3BE4",
+      "item": "conventions",
+      "score": 5,
+      "reason": "The essay shows a developing use of conventions with frequent missing capitalization and punctuation errors that sometimes distract.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "CA3EB3AA11FC",
+      "item": "cohesion",
+      "score": 2,
+      "reason": "The text lacks clear organisation and logical sequence, with linking devices being absent or used unsuccessfully, making the ideas very difficult to follow.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "CA3EB3AA11FC",
+      "item": "syntax",
+      "score": 2,
+      "reason": "There are pervasive basic errors in sentence structure and word order throughout the text, such as fragments and ungrammatical strings like 'yes, I am agree with that' and 'in the world 99% of population the have a lot of staff', which severely disrupt comprehension.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "CA3EB3AA11FC",
+      "item": "vocabulary",
+      "score": 1,
+      "reason": "The vocabulary is severely limited and frequently used inappropriately, demonstrating almost no control over word choice and word formation throughout the text.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "CA3EB3AA11FC",
+      "item": "phraseology",
+      "score": 1,
+      "reason": "The essay relies heavily on fragmented, memorised chunks and extreme phrase misuses such as 'I am agree' and 'not to Belief the are self'.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "CA3EB3AA11FC",
+      "item": "grammar",
+      "score": 1,
+      "reason": "The essay is saturated with severe and pervasive errors in word classes, verb forms, agreement, plurals, and possessives throughout, rendering the text nearly incomprehensible.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "CA3EB3AA11FC",
+      "item": "conventions",
+      "score": 1,
+      "reason": "There is a minimal use of conventions with persistent spelling, capitalization, and punctuation errors throughout the entire text.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "171E655CC8F1",
+      "item": "cohesion",
+      "score": 3,
+      "reason": "Organisation is only partly developed with run-on sentences and basic linking devices like 'because' and 'and' used repetitively.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "171E655CC8F1",
+      "item": "syntax",
+      "score": 2,
+      "reason": "The essay is characterized by pervasive run-on sentences, missing verbs, and flawed word order that frequently obscure the intended meaning.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "171E655CC8F1",
+      "item": "vocabulary",
+      "score": 3,
+      "reason": "The vocabulary is narrow and repetitive, featuring frequent misspellings and incorrect word forms such as \"innecesary,\" \"leasons,\" and \"distractic\" that restrict the expression of ideas.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "171E655CC8F1",
+      "item": "phraseology",
+      "score": 3,
+      "reason": "The essay uses a very narrow and repetitive range of basic phrases such as 'in my position' and 'for many reasons' which are often misused.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "171E655CC8F1",
+      "item": "grammar",
+      "score": 2,
+      "reason": "The essay contains frequent and pervasive errors in verb forms, subject-verb agreement, and run-on sentence structures throughout.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "171E655CC8F1",
+      "item": "conventions",
+      "score": 2,
+      "reason": "There is a minimal use of conventions with frequent spelling, capitalization, and punctuation errors throughout the essay, such as missing apostrophes and run-on sentences.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "DE962FEDCD9E",
+      "item": "cohesion",
+      "score": 4,
+      "reason": "The text shows basic organizational structure and uses simple linking words like 'however', 'also', and 'so', but they are often repetitive and used with mechanical awkwardness.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "DE962FEDCD9E",
+      "item": "syntax",
+      "score": 4,
+      "reason": "The essay displays some sentence variation with both simple and complex structures, but suffers from frequent sentence-structure problems, run-on sentences, and awkward phrasing such as in 'People who have a success life can be because they haved teachers...'",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "DE962FEDCD9E",
+      "item": "vocabulary",
+      "score": 4,
+      "reason": "The vocabulary is narrow with repetitive word choices like \"preising\", \"archievement\", and \"self-steem\", along with noticeable errors in word formation that occasionally distort meaning.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "DE962FEDCD9E",
+      "item": "phraseology",
+      "score": 3,
+      "reason": "The essay relies heavily on a narrow range of basic phrase patterns and repetitive misuses such as 'make dreams true' and 'have a success life'.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "DE962FEDCD9E",
+      "item": "grammar",
+      "score": 3,
+      "reason": "The essay contains many recurrent grammar and usage errors, such as subject-verb agreement issues like 'Being a successful person in life require' and pronoun misuse like 'help they' and 'praising they'.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "DE962FEDCD9E",
+      "item": "conventions",
+      "score": 3,
+      "reason": "There is a variable use of conventions throughout the essay with frequent and distracting errors in grammar, punctuation, and word forms such as 'preising', 'haved', and run-on sentences.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "6AB122D640E1",
+      "item": "cohesion",
+      "score": 6,
+      "reason": "The essay uses basic transitional markers such as First, Second, Third, and In conclusion to structure the paragraphs, though some of the linking devices and phrasing are repetitive and mechanical.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "6AB122D640E1",
+      "item": "syntax",
+      "score": 5,
+      "reason": "The essay uses a mix of simple, compound, and complex sentences, but the range is limited and there are frequent structural errors in longer sentences.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "6AB122D640E1",
+      "item": "vocabulary",
+      "score": 3,
+      "reason": "The vocabulary is narrow and repetitious, featuring frequent misspellings and incorrect word forms such as 'diccuse', 'discusing', 'sence', and 'puncuation' that hinder precision and basic meaning.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "6AB122D640E1",
+      "item": "phraseology",
+      "score": 4,
+      "reason": "The essay relies on a narrow and repetitive range of basic phrases such as come up with and work together, with awkward collocations like discuse in groups.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "6AB122D640E1",
+      "item": "grammar",
+      "score": 4,
+      "reason": "The essay contains many grammatical and usage errors, such as missing words, incorrect verb forms like 'come up', and misspelled words like 'diccuse', 'discusing', and 'sence'.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "6AB122D640E1",
+      "item": "conventions",
+      "score": 4,
+      "reason": "Variable use of conventions is evident with frequent spelling errors such as 'diccuse' and 'sence', alongside missing capitalisation and punctuation errors throughout.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "BA89E5BB44E3",
+      "item": "cohesion",
+      "score": 4,
+      "reason": "The essay has a basic structure with some listing devices like 'First' and 'Second', but transitions are repetitive and ideas are often awkwardly linked across sentences.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "BA89E5BB44E3",
+      "item": "syntax",
+      "score": 3,
+      "reason": "The essay displays some sentence variation, but is heavily weighed down by pervasive sentence-structure problems and ungrammatical clauses.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "BA89E5BB44E3",
+      "item": "vocabulary",
+      "score": 3,
+      "reason": "The vocabulary is narrow and repetitive with frequent errors in word forms like 'wrold' and 'servise' that restrict the expression of ideas.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "BA89E5BB44E3",
+      "item": "phraseology",
+      "score": 3,
+      "reason": "The essay relies on a very narrow range of basic phrases with frequent misuse and repetition, such as 'experience about real world' and 'how to team work'.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "BA89E5BB44E3",
+      "item": "grammar",
+      "score": 3,
+      "reason": "The essay contains many grammatical and usage errors, such as 'which real wrold I meant after graduated college', 'could've go to a other place', and 'how to first aid a customers'.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "BA89E5BB44E3",
+      "item": "conventions",
+      "score": 3,
+      "reason": "Variable use of conventions is evident through frequent spelling errors like 'wrold' and 'teeneger', along with distracting grammatical punctuation and capitalization mistakes throughout.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "E0209F1D5DF6",
+      "item": "cohesion",
+      "score": 3,
+      "reason": "Organisation is only partly developed with repetitive and basic linking devices like 'for example' and 'Second' that do not maintain a clear logical sequence.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "E0209F1D5DF6",
+      "item": "syntax",
+      "score": 4,
+      "reason": "Although there are a few attempts at complex sentences like \"For example if you scream everyday to them they will not respect you,\" the essay contains pervasive sentence-structure problems such as run-ons and missing verbs.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "E0209F1D5DF6",
+      "item": "vocabulary",
+      "score": 3,
+      "reason": "The vocabulary is narrow and repetitive, with frequent errors in word formation such as 'other' instead of 'others' and misuse of forms like 'talk softly and calm'.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "E0209F1D5DF6",
+      "item": "phraseology",
+      "score": 3,
+      "reason": "The essay relies on a very narrow range of basic phrases like 'for example', 'in my opinion', and 'as you can see', with frequent awkward collocations and grammatical misuses.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "E0209F1D5DF6",
+      "item": "grammar",
+      "score": 3,
+      "reason": "There are many errors in grammar and usage throughout the text, such as missing plural markers, incorrect verb forms, and awkward phrasing like 'other person when they talk about they own behavior'.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "E0209F1D5DF6",
+      "item": "conventions",
+      "score": 3,
+      "reason": "The essay displays a variable use of conventions with frequent missing punctuation, capitalization errors at the beginnings of sentences, and grammatical spelling omissions that make reading distracting.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "605C1B4CE788",
+      "item": "cohesion",
+      "score": 3,
+      "reason": "The essay is poorly organised with extreme repetition of the prompt's long central phrase and very few basic or repetitive linking words like so.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "605C1B4CE788",
+      "item": "syntax",
+      "score": 2,
+      "reason": "The essay is dominated by long, run-on sentences with pervasive structural errors, missing subjects, and confusing word order.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "605C1B4CE788",
+      "item": "vocabulary",
+      "score": 3,
+      "reason": "The vocabulary is very narrow and repetitive, relying on basic words with frequent misspellings and errors in word formation, such as 'acomplishment' and 'soemthing'.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "605C1B4CE788",
+      "item": "phraseology",
+      "score": 2,
+      "reason": "The essay relies heavily on simple, memorized chunks and repetitive phrase patterns like 'constantly trying to make you something else' with frequent misuses.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "605C1B4CE788",
+      "item": "grammar",
+      "score": 2,
+      "reason": "The essay contains frequent and pervasive errors in grammar and usage, including missing subjects, incorrect verb forms, run-on sentences, and double negatives throughout the text.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "605C1B4CE788",
+      "item": "conventions",
+      "score": 3,
+      "reason": "There is variable use of conventions throughout the essay, with frequent spelling errors like 'acomplishment' and 'soemthing', alongside run-on sentences and missing capitalization.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "98DE8992E379",
+      "item": "cohesion",
+      "score": 4,
+      "reason": "The essay relies on run-on sentences with repetitive and basic transitions like 'and' and 'then', though it does show some chronological sequence through phrases like 'The next day' and 'After that'.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "98DE8992E379",
+      "item": "syntax",
+      "score": 3,
+      "reason": "The essay relies heavily on long run-on sentences joined by coordinating conjunctions with several sentence-structure and word-order issues.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "98DE8992E379",
+      "item": "vocabulary",
+      "score": 3,
+      "reason": "The vocabulary is narrow and contains several spelling and word formation errors, such as 'aparience', 'actitude', 'inapropiate', and 'conclution', which restrict precision.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "98DE8992E379",
+      "item": "phraseology",
+      "score": 3,
+      "reason": "The essay relies on a very narrow range of basic phrase patterns with noticeable errors and repetitions such as \"I'm agree\" and \"first impresion metter.\"",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "98DE8992E379",
+      "item": "grammar",
+      "score": 3,
+      "reason": "The essay contains many grammatical and usage errors throughout, such as \"I'm agree,\" \"your aparience,\" \"they where looking,\" and \"my friend tell me.\"",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "98DE8992E379",
+      "item": "conventions",
+      "score": 3,
+      "reason": "There are frequent errors in spelling, punctuation, and capitalization, such as lowercase 'i', run-on sentences, and misspelled words like 'aparience', 'actitude', 'inapropiate', and 'conclution'.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "1DE0E7C48DF0",
+      "item": "cohesion",
+      "score": 3,
+      "reason": "Organisation is only partly developed with minimal logical sequence and basic linking words that are used repetitively or inaccurately.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "1DE0E7C48DF0",
+      "item": "syntax",
+      "score": 4,
+      "reason": "Although there are some attempts at complex sentences and clause structures, the essay suffers from numerous punctuation and run-on errors, such as comma splices and fragment sentences.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "1DE0E7C48DF0",
+      "item": "vocabulary",
+      "score": 3,
+      "reason": "The vocabulary is very narrow and basic, featuring frequent spelling and word formation errors such as \"hep\", \"wiling\", and \"Mangers\" that limit the expression of ideas.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "1DE0E7C48DF0",
+      "item": "phraseology",
+      "score": 3,
+      "reason": "The essay relies heavily on a narrow range of basic phrase patterns and simple expressions, with numerous errors such as 'their to hep me' and 'make more hours'.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "1DE0E7C48DF0",
+      "item": "grammar",
+      "score": 3,
+      "reason": "The essay contains many errors in grammar, usage, and mechanics, such as homophone confusion, missing capitalization, run-on sentences, and fragment structures.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "1DE0E7C48DF0",
+      "item": "conventions",
+      "score": 3,
+      "reason": "There is a variable use of conventions with frequent and distracting errors in spelling, punctuation, and capitalization, such as lowercase \"i\", missing apostrophes in \"dont\" and \"Its\", and incorrect homophones like \"their\" instead of \"there\" and \"then\" instead of \"than\".",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "7A7D7BC53938",
+      "item": "cohesion",
+      "score": 4,
+      "reason": "Organisation is partly developed with basic linking words and frequent run-on structures that make the logical sequence difficult to follow in places.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "7A7D7BC53938",
+      "item": "syntax",
+      "score": 3,
+      "reason": "There is some attempt at sentence variety with conditional and correlative structures, but many sentences suffer from severe structural breakdowns, run-on clauses, and fragmented phrasing.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "7A7D7BC53938",
+      "item": "vocabulary",
+      "score": 3,
+      "reason": "The vocabulary is narrow with frequent errors in word choice and formation, such as 'possitive actitude', 'succses', and 'fealing', which occasionally distort meaning.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "7A7D7BC53938",
+      "item": "phraseology",
+      "score": 3,
+      "reason": "The essay relies on a very narrow range of basic phrases and formulaic chunks like 'the key of success' and 'stay at home', accompanied by frequent misuses and repetitions.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "7A7D7BC53938",
+      "item": "grammar",
+      "score": 2,
+      "reason": "The essay contains frequent and severe errors in grammar, word forms, and agreement throughout, such as 'Its a fact', 'possitive actitude', 'every single thinsg that you made', and 'fealing' instead of 'failing'.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "7A7D7BC53938",
+      "item": "conventions",
+      "score": 3,
+      "reason": "There are frequent and distracting spelling and punctuation errors throughout the text, such as \"possitive actitude\", \"succses\", and unpunctuated run-on sentences.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "50611B996992",
+      "item": "cohesion",
+      "score": 4,
+      "reason": "Although basic paragraphing and some transition markers like 'To begin with' and 'Second reason' are present, linking devices are frequently misused and ideas within paragraphs lack a smooth logical sequence.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "50611B996992",
+      "item": "syntax",
+      "score": 3,
+      "reason": "The essay contains frequent sentence-structure problems, run-on constructions, and awkward clauses that hinder readability.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "50611B996992",
+      "item": "vocabulary",
+      "score": 3,
+      "reason": "The vocabulary is narrow with frequent errors in word choice and word formation, such as 'magnifying', 'conseve', and 'differents routine', which sometimes distort the meaning.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "50611B996992",
+      "item": "phraseology",
+      "score": 3,
+      "reason": "The essay relies on a very narrow range of basic phrasal chunks like \"in my opinion\", \"to begin with\", and \"all in all\", with many repetitions and awkward misuses such as \"stressful go to school\" and \"in others words\".",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "50611B996992",
+      "item": "grammar",
+      "score": 3,
+      "reason": "The essay contains many persistent errors in grammar and usage, including subject-verb agreement issues like \"people has\" and \"society are,\" incorrect verb forms, and awkward phrasing such as \"students's health.\"",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "50611B996992",
+      "item": "conventions",
+      "score": 3,
+      "reason": "Errors in subject-verb agreement, spelling such as 'rutine' and 'thier', and missing punctuation make the conventions weak and frequently distracting.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "7862D2AE5697",
+      "item": "cohesion",
+      "score": 6,
+      "reason": "Organisation is generally controlled with basic linking devices and transition phrases like 'For example' and 'Even though', although some transitions are repetitive and mechanical.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "7862D2AE5697",
+      "item": "syntax",
+      "score": 5,
+      "reason": "The writer attempts a mix of simple, compound, and complex sentences, but exhibits limited range and noticeable errors in punctuation and clause coordination.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "7862D2AE5697",
+      "item": "vocabulary",
+      "score": 4,
+      "reason": "The vocabulary is narrow with frequent spelling errors in both basic and topic-related words like 'schedual', 'fiald', 'enthisiasm', and 'muchen', which sometimes obscure meaning.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "7862D2AE5697",
+      "item": "phraseology",
+      "score": 5,
+      "reason": "The writer uses recognizable phrases such as 'playes a huge part', 'train hard', and 'pick my head up', but there is a lack of variety and some awkward collocations throughout.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "7862D2AE5697",
+      "item": "grammar",
+      "score": 5,
+      "reason": "The essay contains some grammatical errors, such as subject-verb agreement issues like 'enthisiasm playes', incorrect word forms like 'professional soccer', and spelling mistakes that affect usage.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "7862D2AE5697",
+      "item": "conventions",
+      "score": 4,
+      "reason": "The essay contains frequent and distracting errors in spelling, punctuation, and capitalization, such as misspelled words like 'playes', 'coche', 'schedual', 'fiald', 'enthisiasm', 'choes', 'pationant', 'persude', 'happynes', 'muchen', 'motal', 'machean', 'Finaly', 'muchean', 'machen', 'geting', 'regected', and 'tryed', alongside missing capitalization at the beginning of sentences and for the pronoun 'i'.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "77BB33DB5187",
+      "item": "cohesion",
+      "score": 5,
+      "reason": "Organisation is generally controlled with some basic linking devices like 'for example' and 'then', but they are often repetitive and faulty.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "77BB33DB5187",
+      "item": "syntax",
+      "score": 4,
+      "reason": "There is some attempt at sentence variation using dependent clauses and conjunctions, but persistent structural problems, awkward word order, and missing verbs frequently hinder clarity.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "77BB33DB5187",
+      "item": "vocabulary",
+      "score": 3,
+      "reason": "The vocabulary is narrow with frequent errors in word formation and choice, such as repeatedly misspelling 'impressions' and using awkward phrases like 'with the pass of time'.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "77BB33DB5187",
+      "item": "phraseology",
+      "score": 3,
+      "reason": "The essay relies on a very narrow range of basic phrasal attempts, such as 'with the pass of time' and 'first impresions', accompanied by frequent awkward collocations and repetitions.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "77BB33DB5187",
+      "item": "grammar",
+      "score": 3,
+      "reason": "The essay contains many persistent errors in grammar and usage, such as incorrect verb forms ('we thinks', 'these is look like'), missing plural markers, and faulty agreement throughout the text.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "77BB33DB5187",
+      "item": "conventions",
+      "score": 3,
+      "reason": "There are frequent spelling and grammatical errors throughout the text, such as 'impresions', 'firts', and awkward phrasing, which distract the reader.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "B379CB700CCD",
+      "item": "cohesion",
+      "score": 4,
+      "reason": "The essay relies heavily on repetitive conjunctions like 'because' and lacks logical paragraph transitions, resulting in run-on sentences that make the flow difficult to follow.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "B379CB700CCD",
+      "item": "syntax",
+      "score": 4,
+      "reason": "The essay relies heavily on run-on sentences and repetitive clause structures joined by multiple conjunctions, demonstrating some sentence variation but persistent structural problems.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "B379CB700CCD",
+      "item": "vocabulary",
+      "score": 4,
+      "reason": "The essay relies on a narrow vocabulary with basic repetitions and word formation errors, such as 'scientifics' and 'stuffs', that restrict its range and precision.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "B379CB700CCD",
+      "item": "phraseology",
+      "score": 3,
+      "reason": "The essay relies on a very narrow range of basic phrases with noticeable repetitions and occasional misuses like 'make their lifes an easy way'.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "B379CB700CCD",
+      "item": "grammar",
+      "score": 4,
+      "reason": "The essay contains many grammatical errors, such as run-on sentences, missing punctuation, and incorrect word forms like 'wil deliviered', 'stuffs', and 'scientifics'.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "B379CB700CCD",
+      "item": "conventions",
+      "score": 3,
+      "reason": "There is a variable use of conventions with frequent run-on sentences, missing apostrophes, and spelling errors such as 'comminicate', 'anoher', and 'wil deliviered'.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "6CB7C1B3C548",
+      "item": "cohesion",
+      "score": 5,
+      "reason": "Organisation is generally controlled with some basic linking devices like 'When you get into a fight' and 'Another thing', though transitions can be repetitive and mechanical.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "6CB7C1B3C548",
+      "item": "syntax",
+      "score": 4,
+      "reason": "The essay shows some sentence variation, but contains many run-on sentences, comma splices, and structural problems.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "6CB7C1B3C548",
+      "item": "vocabulary",
+      "score": 3,
+      "reason": "The vocabulary is very narrow and repetitive, relying on basic phrasing like 'get into trouble' and 'poor choice' alongside frequent spelling errors in word forms like 'introble' and 'design'.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "6CB7C1B3C548",
+      "item": "phraseology",
+      "score": 3,
+      "reason": "The essay relies heavily on a narrow range of basic phrase patterns and frequent repetitions like 'get in trouble' and 'poor choice'.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "6CB7C1B3C548",
+      "item": "grammar",
+      "score": 3,
+      "reason": "The essay contains many errors in grammar and usage, including persistent misspellings, missing apostrophes, run-on sentences, and incorrect verb forms like 'should of thought' and 'suppost'.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "6CB7C1B3C548",
+      "item": "conventions",
+      "score": 3,
+      "reason": "There is a variable use of conventions throughout the text, featuring frequent spelling errors such as 'introble', missing apostrophes in contractions like 'shouldnt', and numerous run-on sentences that make the errors distracting.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "D84024335230",
+      "item": "cohesion",
+      "score": 6,
+      "reason": "Organisation is generally controlled with some basic linking devices like so that's mean, however, and then, but these transitions are sometimes repetitive, mechanical, or slightly faulty.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "D84024335230",
+      "item": "syntax",
+      "score": 4,
+      "reason": "Although there are some attempts at complex sentences and coordinating conjunctions, the essay contains pervasive structural problems such as fused sentences, fragments, and persistent errors in clause formation.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "D84024335230",
+      "item": "vocabulary",
+      "score": 4,
+      "reason": "The vocabulary is narrow and repetitive with frequent errors in word formation and choice, such as 'People are love challenges' and 'yell' instead of yelled, which sometimes restricts clarity.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "D84024335230",
+      "item": "phraseology",
+      "score": 3,
+      "reason": "The essay relies on a very narrow range of basic phrases and formulaic chunks like 'at the same time' and 'one time', accompanied by frequent awkward phrasings and grammatical misuses.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "D84024335230",
+      "item": "grammar",
+      "score": 3,
+      "reason": "The essay contains many persistent errors in grammar and usage, such as 'People are love challenges', 'languages have spoken', and 'my skill is can speak'.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "D84024335230",
+      "item": "conventions",
+      "score": 4,
+      "reason": "There are frequent grammatical, spelling, and punctuation errors throughout the essay, such as 'People are love challenges', 'There are 67 languages have spoken', and missing commas or incorrect capitalization.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "3E1A0BAC4372",
+      "item": "cohesion",
+      "score": 6,
+      "reason": "The essay uses basic linking devices like 'When I was seven' and 'One day', but transitions between paragraphs and ideas are sometimes mechanical and repetitive.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "3E1A0BAC4372",
+      "item": "syntax",
+      "score": 6,
+      "reason": "The writer uses simple, compound, and complex sentences with a moderate range, though some longer sentences become a bit repetitive and run-on.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "3E1A0BAC4372",
+      "item": "vocabulary",
+      "score": 4,
+      "reason": "The vocabulary is narrow and repetitive, featuring basic word forms and occasional spelling errors such as 'acomplish' and 'knwoledge' that restrict the precision of the text.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "3E1A0BAC4372",
+      "item": "phraseology",
+      "score": 4,
+      "reason": "The essay relies on a narrow range of basic phrases like 'on the other side' and 'very helpful', with frequent repetition and some unnatural collocations such as 'accomplish those imaginations'.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "3E1A0BAC4372",
+      "item": "grammar",
+      "score": 6,
+      "reason": "The essay contains some minor errors in grammar and usage, such as 'could be helpful to' and 'be use knwoledge', alongside generally comprehensible sentence structures.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "3E1A0BAC4372",
+      "item": "conventions",
+      "score": 5,
+      "reason": "There is a developing use of conventions with occasional spelling and homophone errors like 'to' instead of 'too' and 'acomplish'.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "68E75FD12673",
+      "item": "cohesion",
+      "score": 5,
+      "reason": "Organisation is generally controlled with basic linking devices like 'When', 'Another good reason', and 'Finally', but these transitions are repetitive and mechanical throughout the paragraphs.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "68E75FD12673",
+      "item": "syntax",
+      "score": 6,
+      "reason": "The essay successfully uses simple, compound, and complex sentences, but shows some errors and awkward phrasing, particularly in longer sentences and with comma splices.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "68E75FD12673",
+      "item": "vocabulary",
+      "score": 3,
+      "reason": "The vocabulary is very narrow and repetitive, relying heavily on basic words like fun and activity without sufficient range for this level.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "68E75FD12673",
+      "item": "phraseology",
+      "score": 4,
+      "reason": "The essay relies on a narrow range of repetitive phrase bundles such as 'have fun', 'go to the park', and 'live a healthy life' with basic meaning and limited variety.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "68E75FD12673",
+      "item": "grammar",
+      "score": 6,
+      "reason": "The essay demonstrates control of basic sentence structures, but contains some errors in grammar, capitalization, and punctuation such as comma splices and missing apostrophes.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "68E75FD12673",
+      "item": "conventions",
+      "score": 6,
+      "reason": "The essay shows developing use of conventions with occasional capitalization errors inside sentences and missing apostrophes in words like theres.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "FEC7696871E4",
+      "item": "cohesion",
+      "score": 7,
+      "reason": "The essay is generally well controlled with clear paragraphing and a range of appropriate linking devices such as First, Second, Lastly, and To sum up.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "FEC7696871E4",
+      "item": "syntax",
+      "score": 6,
+      "reason": "The writer uses a mix of simple, compound, and complex sentences with generally clear word order, though some structures are repetitive and minor errors appear in longer sentences.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "FEC7696871E4",
+      "item": "vocabulary",
+      "score": 5,
+      "reason": "The essay displays a minimally adequate range of vocabulary for the topic with appropriate basic words, but attempts at less common words show some inaccuracy and repetition.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "FEC7696871E4",
+      "item": "phraseology",
+      "score": 4,
+      "reason": "The essay relies on a narrow range of basic phrases such as 'for example' and 'to sum up', along with frequent repetitions and awkward collocations like 'make yourself happier' and 'earn lot of money'.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "FEC7696871E4",
+      "item": "grammar",
+      "score": 5,
+      "reason": "The essay contains some noticeable errors in grammar and usage, such as 'how that feel', 'Imagination make yourself happy', and 'everyone look at her'.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "FEC7696871E4",
+      "item": "conventions",
+      "score": 6,
+      "reason": "The writer demonstrates a developing use of conventions with occasional punctuation errors, missing words, and awkward phrasing that sometimes distract from the meaning.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "7E5F489C8CE4",
+      "item": "cohesion",
+      "score": 4,
+      "reason": "The text features long, run-on sentences with repetitive transitions like 'like' and 'for example,' leading to an underdeveloped and hard-to-follow overall organization.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "7E5F489C8CE4",
+      "item": "syntax",
+      "score": 4,
+      "reason": "The essay contains several very long, run-on sentences with repetitive structures and structural flaws that obscure the progression of thought.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "7E5F489C8CE4",
+      "item": "vocabulary",
+      "score": 4,
+      "reason": "The vocabulary is narrow and repetitive, featuring basic word forms and frequent redundancies like 'study about' and 'invent, create, study anything'.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "7E5F489C8CE4",
+      "item": "phraseology",
+      "score": 4,
+      "reason": "The essay relies on a narrow and repetitive range of basic phrase patterns, such as 'like for example', 'all you have to do is', and awkward collocations like 'imagine of becoming'.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "7E5F489C8CE4",
+      "item": "grammar",
+      "score": 4,
+      "reason": "The essay contains many grammatical errors, such as awkward phrasing ('imagine of doing'), run-on sentences with incorrect punctuation, and non-standard verb forms like 'haven't exist' and 'anythingby'.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "7E5F489C8CE4",
+      "item": "conventions",
+      "score": 5,
+      "reason": "The essay shows developing use of conventions with occasional errors in punctuation and run-on sentences that sometimes distract from the reading.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "7AF7DC456D3C",
+      "item": "cohesion",
+      "score": 6,
+      "reason": "Organisation is generally controlled with some basic linking words and pronouns, but the progression of ideas can feel repetitive and mechanical.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "7AF7DC456D3C",
+      "item": "syntax",
+      "score": 5,
+      "reason": "The writer uses a mix of simple, compound, and complex sentences, but the range is limited and longer sentences sometimes display awkward phrasing or punctuation errors.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "7AF7DC456D3C",
+      "item": "vocabulary",
+      "score": 4,
+      "reason": "The vocabulary is narrow and repetitive, relying heavily on basic words like younger, older, students, and help, with some awkward phrasing like waste that energy.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "7AF7DC456D3C",
+      "item": "phraseology",
+      "score": 4,
+      "reason": "The essay relies on a narrow range of repetitive phrase patterns such as younger students and older students with limited natural collocations.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "7AF7DC456D3C",
+      "item": "grammar",
+      "score": 6,
+      "reason": "The essay demonstrates control of basic sentence structures with some errors in prepositional usage and article omission, such as in tests or quiz and play outside basketball.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "7AF7DC456D3C",
+      "item": "conventions",
+      "score": 7,
+      "reason": "Conventions are generally consistent with only a few minor punctuation and phrasing errors that do not distract from the text.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "F673BCEC3BD1",
+      "item": "cohesion",
+      "score": 6,
+      "reason": "Organisation is generally controlled with some basic linking devices like 'Also' and 'However', though transitions are at times repetitive or somewhat mechanical.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "F673BCEC3BD1",
+      "item": "syntax",
+      "score": 6,
+      "reason": "The essay uses a mix of simple, compound, and complex sentences, but features structural limitations and fragments like 'Also, helps a person learn from own mistakes' and 'Help a person plan better'.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "F673BCEC3BD1",
+      "item": "vocabulary",
+      "score": 6,
+      "reason": "The essay demonstrates a minimally adequate range of vocabulary for the topic with appropriate words like 'self-reliance' and 'independence', though it relies on repetitive phrasing and lacks more sophisticated or precise lexical choices.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "F673BCEC3BD1",
+      "item": "phraseology",
+      "score": 5,
+      "reason": "The essay uses some clear phrases like \"make your own decisions\" and \"learn from their own mistakes,\" but shows limited variety and occasional awkward phrasing such as \"define dependence\" and \"stress out of what not knowing to do.\"",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "F673BCEC3BD1",
+      "item": "grammar",
+      "score": 6,
+      "reason": "The essay demonstrates control of basic grammar with some recurring minor errors such as sentence fragments and missing plural agreements.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "F673BCEC3BD1",
+      "item": "conventions",
+      "score": 7,
+      "reason": "The essay demonstrates generally consistent conventions with only a few minor missing apostrophes in contractions like \"its\" and \"dont\" that are not distracting.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "9DD22B9D10F4",
+      "item": "cohesion",
+      "score": 7,
+      "reason": "Organisation is generally well controlled with a range of linking devices such as 'To begin with', 'Furthermore', and 'In addition to that' used appropriately to guide the reader through the paragraphs.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "9DD22B9D10F4",
+      "item": "syntax",
+      "score": 6,
+      "reason": "The writer uses a mix of simple, compound, and complex sentences, but struggles with control and punctuation in longer, more complex constructions.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "9DD22B9D10F4",
+      "item": "vocabulary",
+      "score": 6,
+      "reason": "The essay displays a minimally adequate range of vocabulary for the topic with appropriate general terms, alongside some attempts at less common words like 'phenomenon' and 'dependent', though it also relies on repetitive phrasing.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "9DD22B9D10F4",
+      "item": "phraseology",
+      "score": 6,
+      "reason": "The essay uses recognizable phrases like 'take good health for granted' and 'every day lives', but shows some repetition and noticeable misuse such as 'impacts their neck position'.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "9DD22B9D10F4",
+      "item": "grammar",
+      "score": 8,
+      "reason": "The essay demonstrates a strong command of grammar and usage with only minimal errors, such as a minor punctuation splice and a confused homophone.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "9DD22B9D10F4",
+      "item": "conventions",
+      "score": 6,
+      "reason": "The writer demonstrates a developing control of conventions, but errors with semicolon misuse before conjunctions and occasional missing punctuation are sometimes distracting.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "E3096B04916A",
+      "item": "cohesion",
+      "score": 6,
+      "reason": "The essay uses basic linking phrases such as 'One reason', 'Another reason', and 'To conclude' to structure the paragraphs, though some transitions are mechanical and repetitive.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "E3096B04916A",
+      "item": "syntax",
+      "score": 6,
+      "reason": "The essay displays a mix of simple, compound, and complex sentences with appropriate control in places, but is limited in range and contains recurring mechanical and structural awkwardness in longer clauses.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "E3096B04916A",
+      "item": "vocabulary",
+      "score": 5,
+      "reason": "The essay displays a minimally adequate range of vocabulary with topic-related terms like extracurricular activities, though it contains some inaccurate word forms and repetitive phrasing such as 'to much pressure' and 'financial'.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "E3096B04916A",
+      "item": "phraseology",
+      "score": 5,
+      "reason": "The essay uses some clear phrases like 'enrich their educational experiences' and 'save time' equivalents, but shows noticeable repetitions and minor misuses such as 'have to much pressure on their shoulders' and 'led students to a depression'.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "E3096B04916A",
+      "item": "grammar",
+      "score": 6,
+      "reason": "The essay contains some noticeable grammatical errors, such as confusions with homophones like 'to' instead of 'too' and 'led' instead of 'lead', alongside awkward phrasing like 'families financial'.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "E3096B04916A",
+      "item": "conventions",
+      "score": 6,
+      "reason": "The essay shows developing use of conventions with repeated spelling and homophone errors like 'have to much' and 'can led', which are occasionally distracting.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "822F6C3B3C03",
+      "item": "cohesion",
+      "score": 5,
+      "reason": "Organisation is generally controlled with some basic linking devices and conditional structures, but transitions between paragraphs and ideas feel somewhat repetitive and mechanical.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "822F6C3B3C03",
+      "item": "syntax",
+      "score": 5,
+      "reason": "Simple, compound, and complex sentences are all present but limited in range, with occasional errors such as run-on constructions and awkward clause embedding in longer sentences.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "822F6C3B3C03",
+      "item": "vocabulary",
+      "score": 4,
+      "reason": "The vocabulary is narrow and repetitive, relying on basic words like 'doing', 'thing', and 'accomplish' with occasional errors in word forms such as 'out you're comfort zone'.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "822F6C3B3C03",
+      "item": "phraseology",
+      "score": 4,
+      "reason": "The essay relies on a narrow range of repetitive phrase patterns such as \"always do\" and \"try new things\" with some misuses like \"you're comfort zone\".",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "822F6C3B3C03",
+      "item": "grammar",
+      "score": 6,
+      "reason": "The essay contains some grammar and usage errors, such as the missing apostrophe in \"doesnt\" and the incorrect pronoun in \"you're comfort zone,\" alongside generally clear sentence structures.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "822F6C3B3C03",
+      "item": "conventions",
+      "score": 6,
+      "reason": "The essay shows developing use of conventions with occasional missing apostrophes, missing capitalisation for pronouns like 'i'm', and run-on sentence structures that sometimes distract from the reading.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "D86C20117DC9",
+      "item": "cohesion",
+      "score": 6,
+      "reason": "The essay uses basic linking devices such as 'however', 'For example', and 'First' to organize paragraphs, but these transitions are frequently repetitive and mechanical.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "D86C20117DC9",
+      "item": "syntax",
+      "score": 5,
+      "reason": "Simple, compound, and complex sentences are all present with some variety, but the text contains noticeable syntactical errors, awkward phrasings, and grammatical slips especially in longer structures.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "D86C20117DC9",
+      "item": "vocabulary",
+      "score": 3,
+      "reason": "The vocabulary is narrow and repetitive with frequent errors in word formation and choice, such as 'works alone' and 'safe time'.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "D86C20117DC9",
+      "item": "phraseology",
+      "score": 3,
+      "reason": "The essay relies on a very narrow range of basic phrases like 'work in group' and 'share they ideas,' which are repeated excessively throughout the text.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "D86C20117DC9",
+      "item": "grammar",
+      "score": 4,
+      "reason": "The essay contains many grammar and usage errors, such as subject-verb agreement issues (\"students works\"), incorrect pronoun usage (\"they ideas\"), and missing prepositions (\"students work in groups\").",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "D86C20117DC9",
+      "item": "conventions",
+      "score": 4,
+      "reason": "There is a variable use of conventions throughout the essay, with frequent errors in possessive pronouns ('they ideas'), subject-verb agreement ('students works'), and missing prepositions that can be distracting.",
+      "sentences": 1,
+      "model": "gemini-3.5-flash-lite"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+name: rubric-eval
+
+on:
+  push:
+    branches: [main]
+    paths: ['rubric-eval/**', '.github/workflows/rubric-eval.yml']
+  pull_request:
+    branches: [main]
+    paths: ['rubric-eval/**', '.github/workflows/rubric-eval.yml']
+
+permissions:
+  contents: read
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: rubric-eval
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: 24
+      - run: npm ci
+      - run: npm audit --omit=dev --audit-level=high
+      - run: npm run check
+      - run: npm test
+      - name: The published figures still come out of the recording
+        run: |
+          npm run eval -- --client recorded --model gemini-3.5-flash-lite --label gemini-3.5-flash-lite
+          npm run eval -- --client stub
+          git diff --exit-code -- results/
+
+  secrets:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: gitleaks/gitleaks-action@e0c47f4f8be36e29cdc102c57e68cb5cbf0e8d1e # v3.0.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -1,0 +1,72 @@
+# Adapted from the ELLIPSE scoring rubric (ELL_Rubrics.docx in the ELLIPSE corpus,
+# CC BY-NC-SA 4.0). The corpus scores 1-5; here each of its levels is a band of
+# two points on a 1-10 scale, so level 3 is 5-6 and level 5 is 9-10.
+
+name: English language proficiency (ELLIPSE analytic rubric)
+context: >-
+  The essay was written by an English language learner in grades 8 to 12,
+  in response to a set task. Judge the language, not the opinions or the facts.
+scale:
+  min: 1
+  max: 10
+
+items:
+  - id: cohesion
+    name: Cohesion
+    description: How well the text is organised, and how ideas are linked across sentences and paragraphs with reference words, transitions and overlap of ideas.
+    bands:
+      "1-2": No clear control of organisation; linking devices absent or used unsuccessfully; the ideas are hard to follow.
+      "3-4": Organisation only partly developed, with little logical sequence; some basic linking words, used inaccurately or repetitively.
+      "5-6": Organisation generally controlled; linking devices used but limited in type, sometimes repetitive, mechanical or faulty.
+      "7-8": Organisation generally well controlled; a range of linking devices used appropriately; ideas overlap sensibly.
+      "9-10": Organisation consistently well controlled with a variety of effective linking devices across sentences and paragraphs.
+
+  - id: syntax
+    name: Syntax
+    description: The range and control of sentence structures (simple, compound and complex sentences, clauses and word order).
+    bands:
+      "1-2": Pervasive basic errors in sentence structure and word order that cause confusion.
+      "3-4": Some sentence variation, but many sentence-structure problems.
+      "5-6": Simple, compound and complex sentences present but limited in range; some errors, especially in longer sentences.
+      "7-8": A variety of sentence structures used appropriately; occasional errors in sentence formation.
+      "9-10": Flexible, effective use of the full range of sentence structures; rare, negligible errors.
+
+  - id: vocabulary
+    name: Vocabulary
+    description: The range and precision of the words used, including topic-related and less common words.
+    bands:
+      "1-2": Limited vocabulary, often used inappropriately; little control of word choice and word forms.
+      "3-4": Narrow vocabulary for basic meaning; errors in word choice and word formation that may distort meaning.
+      "5-6": Minimally adequate range for the topic; attempts at less common words, with some inaccuracy.
+      "7-8": Enough range for flexibility and precision; topic-related and less common words used appropriately.
+      "9-10": Wide vocabulary used flexibly and precisely; skilful use of less common words; rare negligible slips.
+
+  - id: phraseology
+    name: Phraseology
+    description: The use of multi-word phrases such as idioms, collocations (save time, go to bed) and common bundles (there is).
+    bands:
+      "1-2": Memorised chunks or simple phrase patterns dominate; many repetitions and misuses.
+      "3-4": Narrow range of phrases for basic meaning; many repetitions or misuses.
+      "5-6": Phrases clearly used but without much variety; some noticeable repetitions and misuses.
+      "7-8": A variety of phrases used appropriately; occasional inaccuracies or colloquialisms.
+      "9-10": Flexible, effective use of varied phrases to convey precise and subtle meaning; rare minor slips.
+
+  - id: grammar
+    name: Grammar
+    description: Control of grammar and usage (word classes, verb forms, agreement, plurals, possessives).
+    bands:
+      "1-2": Errors in grammar and usage throughout.
+      "3-4": Many errors in grammar and usage.
+      "5-6": Some errors in grammar and usage.
+      "7-8": Minimal errors in grammar and usage.
+      "9-10": Command of grammar and usage with few or no errors.
+
+  - id: conventions
+    name: Conventions
+    description: Spelling, capitalisation and punctuation.
+    bands:
+      "1-2": Minimal use of conventions; spelling, capitalisation and punctuation errors throughout.
+      "3-4": Variable use of conventions; errors frequent and distracting.
+      "5-6": Developing use of conventions; errors sometimes distracting.
+      "7-8": Generally consistent conventions; errors few and not distracting.
+      "9-10": Consistent, appropriate conventions; errors absent or negligible.

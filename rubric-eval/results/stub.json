@@ -1,0 +1,1447 @@
+{
+  "model": "surface-counts",
+  "rubric": "rubrics/ellipse.yaml",
+  "data": "data/sample.json",
+  "results": [
+    {
+      "id": "2B621C2F0716",
+      "item": "cohesion",
+      "score": 10,
+      "reason": "8 paragraphs and 8 linking words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "2B621C2F0716",
+      "item": "syntax",
+      "score": 8,
+      "reason": "24.5 words per sentence.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "2B621C2F0716",
+      "item": "vocabulary",
+      "score": 4,
+      "reason": "42% different words in the first 200 and 2% long words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "2B621C2F0716",
+      "item": "phraseology",
+      "score": 4,
+      "reason": "42% different words in the first 200.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "2B621C2F0716",
+      "item": "grammar",
+      "score": 7,
+      "reason": "0.9 surface slips per 100 words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "2B621C2F0716",
+      "item": "conventions",
+      "score": 7,
+      "reason": "0.9 spelling, apostrophe and capital slips per 100 words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "6B8C02811FF6",
+      "item": "cohesion",
+      "score": 8,
+      "reason": "6 paragraphs and 7 linking words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "6B8C02811FF6",
+      "item": "syntax",
+      "score": 10,
+      "reason": "40.9 words per sentence.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "6B8C02811FF6",
+      "item": "vocabulary",
+      "score": 4,
+      "reason": "41% different words in the first 200 and 5% long words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "6B8C02811FF6",
+      "item": "phraseology",
+      "score": 4,
+      "reason": "41% different words in the first 200.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "6B8C02811FF6",
+      "item": "grammar",
+      "score": 1,
+      "reason": "6.4 surface slips per 100 words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "6B8C02811FF6",
+      "item": "conventions",
+      "score": 1,
+      "reason": "6.4 spelling, apostrophe and capital slips per 100 words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "C65705E1E072",
+      "item": "cohesion",
+      "score": 6,
+      "reason": "4 paragraphs and 4 linking words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "C65705E1E072",
+      "item": "syntax",
+      "score": 9,
+      "reason": "26.1 words per sentence.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "C65705E1E072",
+      "item": "vocabulary",
+      "score": 8,
+      "reason": "56% different words in the first 200 and 17% long words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "C65705E1E072",
+      "item": "phraseology",
+      "score": 5,
+      "reason": "56% different words in the first 200.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "C65705E1E072",
+      "item": "grammar",
+      "score": 8,
+      "reason": "0.0 surface slips per 100 words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "C65705E1E072",
+      "item": "conventions",
+      "score": 9,
+      "reason": "0.0 spelling, apostrophe and capital slips per 100 words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "FF8A189E3BE4",
+      "item": "cohesion",
+      "score": 6,
+      "reason": "3 paragraphs and 4 linking words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "FF8A189E3BE4",
+      "item": "syntax",
+      "score": 8,
+      "reason": "23.4 words per sentence.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "FF8A189E3BE4",
+      "item": "vocabulary",
+      "score": 6,
+      "reason": "44% different words in the first 200 and 13% long words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "FF8A189E3BE4",
+      "item": "phraseology",
+      "score": 4,
+      "reason": "44% different words in the first 200.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "FF8A189E3BE4",
+      "item": "grammar",
+      "score": 3,
+      "reason": "3.7 surface slips per 100 words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "FF8A189E3BE4",
+      "item": "conventions",
+      "score": 2,
+      "reason": "3.7 spelling, apostrophe and capital slips per 100 words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "CA3EB3AA11FC",
+      "item": "cohesion",
+      "score": 10,
+      "reason": "18 paragraphs and 1 linking words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "CA3EB3AA11FC",
+      "item": "syntax",
+      "score": 5,
+      "reason": "13.4 words per sentence.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "CA3EB3AA11FC",
+      "item": "vocabulary",
+      "score": 5,
+      "reason": "49% different words in the first 200 and 5% long words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "CA3EB3AA11FC",
+      "item": "phraseology",
+      "score": 4,
+      "reason": "49% different words in the first 200.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "CA3EB3AA11FC",
+      "item": "grammar",
+      "score": 1,
+      "reason": "4.4 surface slips per 100 words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "CA3EB3AA11FC",
+      "item": "conventions",
+      "score": 1,
+      "reason": "4.4 spelling, apostrophe and capital slips per 100 words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "171E655CC8F1",
+      "item": "cohesion",
+      "score": 8,
+      "reason": "5 paragraphs and 8 linking words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "171E655CC8F1",
+      "item": "syntax",
+      "score": 10,
+      "reason": "51.5 words per sentence.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "171E655CC8F1",
+      "item": "vocabulary",
+      "score": 4,
+      "reason": "39% different words in the first 200 and 5% long words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "171E655CC8F1",
+      "item": "phraseology",
+      "score": 3,
+      "reason": "39% different words in the first 200.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "171E655CC8F1",
+      "item": "grammar",
+      "score": 5,
+      "reason": "1.9 surface slips per 100 words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "171E655CC8F1",
+      "item": "conventions",
+      "score": 5,
+      "reason": "1.9 spelling, apostrophe and capital slips per 100 words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "DE962FEDCD9E",
+      "item": "cohesion",
+      "score": 7,
+      "reason": "4 paragraphs and 7 linking words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "DE962FEDCD9E",
+      "item": "syntax",
+      "score": 8,
+      "reason": "25.1 words per sentence.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "DE962FEDCD9E",
+      "item": "vocabulary",
+      "score": 7,
+      "reason": "45% different words in the first 200 and 16% long words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "DE962FEDCD9E",
+      "item": "phraseology",
+      "score": 4,
+      "reason": "45% different words in the first 200.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "DE962FEDCD9E",
+      "item": "grammar",
+      "score": 8,
+      "reason": "0.2 surface slips per 100 words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "DE962FEDCD9E",
+      "item": "conventions",
+      "score": 9,
+      "reason": "0.2 spelling, apostrophe and capital slips per 100 words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "6AB122D640E1",
+      "item": "cohesion",
+      "score": 8,
+      "reason": "5 paragraphs and 9 linking words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "6AB122D640E1",
+      "item": "syntax",
+      "score": 6,
+      "reason": "14.3 words per sentence.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "6AB122D640E1",
+      "item": "vocabulary",
+      "score": 5,
+      "reason": "45% different words in the first 200 and 8% long words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "6AB122D640E1",
+      "item": "phraseology",
+      "score": 4,
+      "reason": "45% different words in the first 200.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "6AB122D640E1",
+      "item": "grammar",
+      "score": 6,
+      "reason": "1.4 surface slips per 100 words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "6AB122D640E1",
+      "item": "conventions",
+      "score": 6,
+      "reason": "1.4 spelling, apostrophe and capital slips per 100 words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "BA89E5BB44E3",
+      "item": "cohesion",
+      "score": 6,
+      "reason": "1 paragraphs and 9 linking words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "BA89E5BB44E3",
+      "item": "syntax",
+      "score": 8,
+      "reason": "23.7 words per sentence.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "BA89E5BB44E3",
+      "item": "vocabulary",
+      "score": 6,
+      "reason": "59% different words in the first 200 and 8% long words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "BA89E5BB44E3",
+      "item": "phraseology",
+      "score": 5,
+      "reason": "59% different words in the first 200.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "BA89E5BB44E3",
+      "item": "grammar",
+      "score": 8,
+      "reason": "0.0 surface slips per 100 words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "BA89E5BB44E3",
+      "item": "conventions",
+      "score": 9,
+      "reason": "0.0 spelling, apostrophe and capital slips per 100 words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "E0209F1D5DF6",
+      "item": "cohesion",
+      "score": 8,
+      "reason": "5 paragraphs and 9 linking words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "E0209F1D5DF6",
+      "item": "syntax",
+      "score": 8,
+      "reason": "24.2 words per sentence.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "E0209F1D5DF6",
+      "item": "vocabulary",
+      "score": 6,
+      "reason": "46% different words in the first 200 and 10% long words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "E0209F1D5DF6",
+      "item": "phraseology",
+      "score": 4,
+      "reason": "46% different words in the first 200.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "E0209F1D5DF6",
+      "item": "grammar",
+      "score": 7,
+      "reason": "0.5 surface slips per 100 words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "E0209F1D5DF6",
+      "item": "conventions",
+      "score": 8,
+      "reason": "0.5 spelling, apostrophe and capital slips per 100 words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "605C1B4CE788",
+      "item": "cohesion",
+      "score": 8,
+      "reason": "6 paragraphs and 4 linking words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "605C1B4CE788",
+      "item": "syntax",
+      "score": 10,
+      "reason": "47.0 words per sentence.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "605C1B4CE788",
+      "item": "vocabulary",
+      "score": 6,
+      "reason": "39% different words in the first 200 and 12% long words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "605C1B4CE788",
+      "item": "phraseology",
+      "score": 3,
+      "reason": "39% different words in the first 200.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "605C1B4CE788",
+      "item": "grammar",
+      "score": 6,
+      "reason": "1.1 surface slips per 100 words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "605C1B4CE788",
+      "item": "conventions",
+      "score": 7,
+      "reason": "1.1 spelling, apostrophe and capital slips per 100 words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "98DE8992E379",
+      "item": "cohesion",
+      "score": 9,
+      "reason": "5 paragraphs and 12 linking words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "98DE8992E379",
+      "item": "syntax",
+      "score": 10,
+      "reason": "49.8 words per sentence.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "98DE8992E379",
+      "item": "vocabulary",
+      "score": 6,
+      "reason": "49% different words in the first 200 and 10% long words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "98DE8992E379",
+      "item": "phraseology",
+      "score": 4,
+      "reason": "49% different words in the first 200.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "98DE8992E379",
+      "item": "grammar",
+      "score": 1,
+      "reason": "5.2 surface slips per 100 words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "98DE8992E379",
+      "item": "conventions",
+      "score": 1,
+      "reason": "5.2 spelling, apostrophe and capital slips per 100 words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "1DE0E7C48DF0",
+      "item": "cohesion",
+      "score": 7,
+      "reason": "6 paragraphs and 1 linking words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "1DE0E7C48DF0",
+      "item": "syntax",
+      "score": 6,
+      "reason": "17.7 words per sentence.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "1DE0E7C48DF0",
+      "item": "vocabulary",
+      "score": 6,
+      "reason": "60% different words in the first 200 and 8% long words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "1DE0E7C48DF0",
+      "item": "phraseology",
+      "score": 5,
+      "reason": "60% different words in the first 200.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "1DE0E7C48DF0",
+      "item": "grammar",
+      "score": 3,
+      "reason": "3.5 surface slips per 100 words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "1DE0E7C48DF0",
+      "item": "conventions",
+      "score": 2,
+      "reason": "3.5 spelling, apostrophe and capital slips per 100 words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "7A7D7BC53938",
+      "item": "cohesion",
+      "score": 7,
+      "reason": "5 paragraphs and 5 linking words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "7A7D7BC53938",
+      "item": "syntax",
+      "score": 9,
+      "reason": "28.2 words per sentence.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "7A7D7BC53938",
+      "item": "vocabulary",
+      "score": 6,
+      "reason": "55% different words in the first 200 and 8% long words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "7A7D7BC53938",
+      "item": "phraseology",
+      "score": 5,
+      "reason": "55% different words in the first 200.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "7A7D7BC53938",
+      "item": "grammar",
+      "score": 6,
+      "reason": "1.1 surface slips per 100 words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "7A7D7BC53938",
+      "item": "conventions",
+      "score": 7,
+      "reason": "1.1 spelling, apostrophe and capital slips per 100 words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "50611B996992",
+      "item": "cohesion",
+      "score": 7,
+      "reason": "5 paragraphs and 5 linking words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "50611B996992",
+      "item": "syntax",
+      "score": 6,
+      "reason": "16.3 words per sentence.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "50611B996992",
+      "item": "vocabulary",
+      "score": 8,
+      "reason": "58% different words in the first 200 and 15% long words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "50611B996992",
+      "item": "phraseology",
+      "score": 5,
+      "reason": "58% different words in the first 200.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "50611B996992",
+      "item": "grammar",
+      "score": 8,
+      "reason": "0.2 surface slips per 100 words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "50611B996992",
+      "item": "conventions",
+      "score": 9,
+      "reason": "0.2 spelling, apostrophe and capital slips per 100 words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "7862D2AE5697",
+      "item": "cohesion",
+      "score": 5,
+      "reason": "1 paragraphs and 4 linking words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "7862D2AE5697",
+      "item": "syntax",
+      "score": 5,
+      "reason": "13.7 words per sentence.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "7862D2AE5697",
+      "item": "vocabulary",
+      "score": 6,
+      "reason": "58% different words in the first 200 and 5% long words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "7862D2AE5697",
+      "item": "phraseology",
+      "score": 5,
+      "reason": "58% different words in the first 200.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "7862D2AE5697",
+      "item": "grammar",
+      "score": 2,
+      "reason": "4.1 surface slips per 100 words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "7862D2AE5697",
+      "item": "conventions",
+      "score": 1,
+      "reason": "4.1 spelling, apostrophe and capital slips per 100 words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "77BB33DB5187",
+      "item": "cohesion",
+      "score": 8,
+      "reason": "6 paragraphs and 7 linking words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "77BB33DB5187",
+      "item": "syntax",
+      "score": 7,
+      "reason": "19.4 words per sentence.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "77BB33DB5187",
+      "item": "vocabulary",
+      "score": 6,
+      "reason": "45% different words in the first 200 and 11% long words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "77BB33DB5187",
+      "item": "phraseology",
+      "score": 4,
+      "reason": "45% different words in the first 200.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "77BB33DB5187",
+      "item": "grammar",
+      "score": 8,
+      "reason": "0.0 surface slips per 100 words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "77BB33DB5187",
+      "item": "conventions",
+      "score": 9,
+      "reason": "0.0 spelling, apostrophe and capital slips per 100 words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "B379CB700CCD",
+      "item": "cohesion",
+      "score": 8,
+      "reason": "6 paragraphs and 4 linking words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "B379CB700CCD",
+      "item": "syntax",
+      "score": 10,
+      "reason": "32.2 words per sentence.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "B379CB700CCD",
+      "item": "vocabulary",
+      "score": 6,
+      "reason": "49% different words in the first 200 and 12% long words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "B379CB700CCD",
+      "item": "phraseology",
+      "score": 4,
+      "reason": "49% different words in the first 200.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "B379CB700CCD",
+      "item": "grammar",
+      "score": 7,
+      "reason": "0.5 surface slips per 100 words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "B379CB700CCD",
+      "item": "conventions",
+      "score": 8,
+      "reason": "0.5 spelling, apostrophe and capital slips per 100 words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "6CB7C1B3C548",
+      "item": "cohesion",
+      "score": 6,
+      "reason": "5 paragraphs and 1 linking words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "6CB7C1B3C548",
+      "item": "syntax",
+      "score": 10,
+      "reason": "34.6 words per sentence.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "6CB7C1B3C548",
+      "item": "vocabulary",
+      "score": 4,
+      "reason": "47% different words in the first 200 and 3% long words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "6CB7C1B3C548",
+      "item": "phraseology",
+      "score": 4,
+      "reason": "47% different words in the first 200.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "6CB7C1B3C548",
+      "item": "grammar",
+      "score": 6,
+      "reason": "1.3 surface slips per 100 words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "6CB7C1B3C548",
+      "item": "conventions",
+      "score": 6,
+      "reason": "1.3 spelling, apostrophe and capital slips per 100 words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "D84024335230",
+      "item": "cohesion",
+      "score": 7,
+      "reason": "5 paragraphs and 2 linking words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "D84024335230",
+      "item": "syntax",
+      "score": 7,
+      "reason": "20.6 words per sentence.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "D84024335230",
+      "item": "vocabulary",
+      "score": 7,
+      "reason": "56% different words in the first 200 and 12% long words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "D84024335230",
+      "item": "phraseology",
+      "score": 5,
+      "reason": "56% different words in the first 200.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "D84024335230",
+      "item": "grammar",
+      "score": 8,
+      "reason": "0.0 surface slips per 100 words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "D84024335230",
+      "item": "conventions",
+      "score": 9,
+      "reason": "0.0 spelling, apostrophe and capital slips per 100 words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "3E1A0BAC4372",
+      "item": "cohesion",
+      "score": 7,
+      "reason": "5 paragraphs and 5 linking words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "3E1A0BAC4372",
+      "item": "syntax",
+      "score": 6,
+      "reason": "17.1 words per sentence.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "3E1A0BAC4372",
+      "item": "vocabulary",
+      "score": 7,
+      "reason": "45% different words in the first 200 and 15% long words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "3E1A0BAC4372",
+      "item": "phraseology",
+      "score": 4,
+      "reason": "45% different words in the first 200.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "3E1A0BAC4372",
+      "item": "grammar",
+      "score": 8,
+      "reason": "0.0 surface slips per 100 words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "3E1A0BAC4372",
+      "item": "conventions",
+      "score": 9,
+      "reason": "0.0 spelling, apostrophe and capital slips per 100 words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "68E75FD12673",
+      "item": "cohesion",
+      "score": 7,
+      "reason": "5 paragraphs and 5 linking words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "68E75FD12673",
+      "item": "syntax",
+      "score": 7,
+      "reason": "21.0 words per sentence.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "68E75FD12673",
+      "item": "vocabulary",
+      "score": 4,
+      "reason": "42% different words in the first 200 and 5% long words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "68E75FD12673",
+      "item": "phraseology",
+      "score": 4,
+      "reason": "42% different words in the first 200.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "68E75FD12673",
+      "item": "grammar",
+      "score": 8,
+      "reason": "0.0 surface slips per 100 words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "68E75FD12673",
+      "item": "conventions",
+      "score": 9,
+      "reason": "0.0 spelling, apostrophe and capital slips per 100 words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "FEC7696871E4",
+      "item": "cohesion",
+      "score": 9,
+      "reason": "5 paragraphs and 10 linking words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "FEC7696871E4",
+      "item": "syntax",
+      "score": 5,
+      "reason": "10.1 words per sentence.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "FEC7696871E4",
+      "item": "vocabulary",
+      "score": 6,
+      "reason": "54% different words in the first 200 and 11% long words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "FEC7696871E4",
+      "item": "phraseology",
+      "score": 5,
+      "reason": "54% different words in the first 200.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "FEC7696871E4",
+      "item": "grammar",
+      "score": 8,
+      "reason": "0.0 surface slips per 100 words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "FEC7696871E4",
+      "item": "conventions",
+      "score": 9,
+      "reason": "0.0 spelling, apostrophe and capital slips per 100 words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "7E5F489C8CE4",
+      "item": "cohesion",
+      "score": 8,
+      "reason": "6 paragraphs and 4 linking words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "7E5F489C8CE4",
+      "item": "syntax",
+      "score": 10,
+      "reason": "50.3 words per sentence.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "7E5F489C8CE4",
+      "item": "vocabulary",
+      "score": 7,
+      "reason": "51% different words in the first 200 and 16% long words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "7E5F489C8CE4",
+      "item": "phraseology",
+      "score": 5,
+      "reason": "51% different words in the first 200.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "7E5F489C8CE4",
+      "item": "grammar",
+      "score": 8,
+      "reason": "0.0 surface slips per 100 words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "7E5F489C8CE4",
+      "item": "conventions",
+      "score": 9,
+      "reason": "0.0 spelling, apostrophe and capital slips per 100 words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "7AF7DC456D3C",
+      "item": "cohesion",
+      "score": 5,
+      "reason": "2 paragraphs and 3 linking words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "7AF7DC456D3C",
+      "item": "syntax",
+      "score": 7,
+      "reason": "20.3 words per sentence.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "7AF7DC456D3C",
+      "item": "vocabulary",
+      "score": 7,
+      "reason": "52% different words in the first 200 and 13% long words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "7AF7DC456D3C",
+      "item": "phraseology",
+      "score": 5,
+      "reason": "52% different words in the first 200.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "7AF7DC456D3C",
+      "item": "grammar",
+      "score": 8,
+      "reason": "0.0 surface slips per 100 words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "7AF7DC456D3C",
+      "item": "conventions",
+      "score": 9,
+      "reason": "0.0 spelling, apostrophe and capital slips per 100 words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "F673BCEC3BD1",
+      "item": "cohesion",
+      "score": 7,
+      "reason": "5 paragraphs and 3 linking words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "F673BCEC3BD1",
+      "item": "syntax",
+      "score": 5,
+      "reason": "11.7 words per sentence.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "F673BCEC3BD1",
+      "item": "vocabulary",
+      "score": 7,
+      "reason": "56% different words in the first 200 and 14% long words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "F673BCEC3BD1",
+      "item": "phraseology",
+      "score": 5,
+      "reason": "56% different words in the first 200.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "F673BCEC3BD1",
+      "item": "grammar",
+      "score": 8,
+      "reason": "0.3 surface slips per 100 words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "F673BCEC3BD1",
+      "item": "conventions",
+      "score": 8,
+      "reason": "0.3 spelling, apostrophe and capital slips per 100 words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "9DD22B9D10F4",
+      "item": "cohesion",
+      "score": 8,
+      "reason": "4 paragraphs and 9 linking words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "9DD22B9D10F4",
+      "item": "syntax",
+      "score": 8,
+      "reason": "23.7 words per sentence.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "9DD22B9D10F4",
+      "item": "vocabulary",
+      "score": 7,
+      "reason": "47% different words in the first 200 and 18% long words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "9DD22B9D10F4",
+      "item": "phraseology",
+      "score": 4,
+      "reason": "47% different words in the first 200.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "9DD22B9D10F4",
+      "item": "grammar",
+      "score": 8,
+      "reason": "0.0 surface slips per 100 words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "9DD22B9D10F4",
+      "item": "conventions",
+      "score": 9,
+      "reason": "0.0 spelling, apostrophe and capital slips per 100 words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "E3096B04916A",
+      "item": "cohesion",
+      "score": 7,
+      "reason": "5 paragraphs and 3 linking words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "E3096B04916A",
+      "item": "syntax",
+      "score": 6,
+      "reason": "16.3 words per sentence.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "E3096B04916A",
+      "item": "vocabulary",
+      "score": 8,
+      "reason": "40% different words in the first 200 and 26% long words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "E3096B04916A",
+      "item": "phraseology",
+      "score": 4,
+      "reason": "40% different words in the first 200.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "E3096B04916A",
+      "item": "grammar",
+      "score": 8,
+      "reason": "0.0 surface slips per 100 words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "E3096B04916A",
+      "item": "conventions",
+      "score": 9,
+      "reason": "0.0 spelling, apostrophe and capital slips per 100 words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "822F6C3B3C03",
+      "item": "cohesion",
+      "score": 10,
+      "reason": "6 paragraphs and 15 linking words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "822F6C3B3C03",
+      "item": "syntax",
+      "score": 7,
+      "reason": "20.8 words per sentence.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "822F6C3B3C03",
+      "item": "vocabulary",
+      "score": 6,
+      "reason": "50% different words in the first 200 and 8% long words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "822F6C3B3C03",
+      "item": "phraseology",
+      "score": 4,
+      "reason": "50% different words in the first 200.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "822F6C3B3C03",
+      "item": "grammar",
+      "score": 7,
+      "reason": "0.5 surface slips per 100 words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "822F6C3B3C03",
+      "item": "conventions",
+      "score": 8,
+      "reason": "0.5 spelling, apostrophe and capital slips per 100 words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "D86C20117DC9",
+      "item": "cohesion",
+      "score": 10,
+      "reason": "5 paragraphs and 17 linking words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "D86C20117DC9",
+      "item": "syntax",
+      "score": 6,
+      "reason": "17.2 words per sentence.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "D86C20117DC9",
+      "item": "vocabulary",
+      "score": 5,
+      "reason": "37% different words in the first 200 and 12% long words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "D86C20117DC9",
+      "item": "phraseology",
+      "score": 3,
+      "reason": "37% different words in the first 200.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "D86C20117DC9",
+      "item": "grammar",
+      "score": 8,
+      "reason": "0.0 surface slips per 100 words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    },
+    {
+      "id": "D86C20117DC9",
+      "item": "conventions",
+      "score": 9,
+      "reason": "0.0 spelling, apostrophe and capital slips per 100 words.",
+      "sentences": 1,
+      "model": "surface-counts"
+    }
+  ]
+}

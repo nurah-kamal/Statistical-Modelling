@@ -1,0 +1,938 @@
+{
+  "source": "ELLIPSE corpus, ELLIPSE_Final_github_train.csv and ellipsis_raw_rater_scores_anon_all_essay.csv",
+  "licence": "CC BY-NC-SA 4.0",
+  "seed": 20261025,
+  "eligible": 2103,
+  "essays": [
+    {
+      "id": "2B621C2F0716",
+      "task": "Learning from the experience of others",
+      "text": "Someone who shares wisdom is like talking to an angle.\n\nOne person who shares wisdom to me is my friend because, we love each other, we care about each other, and just giving out wisdom, is just nice.\n\nMy friend gives me wisdom cause they love me and wish for the best for me. My friend always tells me that I should always go forward and don't look back, to the bad thing and keep on going. If i'm going through some bad stuff with someone or something you just got to stay positive and just not give up on your self.\n\nFriends give out wisdom because it is nice and helpful for people, my friend like to give out advice and say good things and give out wisdom, because they are nice, and are caring friends and just keep there heads forward not back.\n\nMy friends give out wisdom because they care about me and for other people to and not for just one person but for multiple people. My friends are just nice and just some good friends to me and to other people out there in that world, because with wisdom you can give advise to people.\n\nI have learned from other people because i have seen people go through it and thats a happy thing because you give out advise to someone you look forward to, like your parents, aunt, uncle, and the people you trust like a close friend to. Anyone that you trust id good because then you can stay positive.\n\nI just think that giving out wisdom is such a kind think to do to people and to friends and family. Wisdom can mean a lot of thing to people, like kindness and being happy and just putting a smile in your face. Wisdom is just a good way to stay positive and be yourself\n\nWisdom can make you a happy person.",
+      "human": {
+        "cohesion": 2.5,
+        "syntax": 2.5,
+        "vocabulary": 2.5,
+        "phraseology": 3,
+        "grammar": 2.5,
+        "conventions": 2.5
+      },
+      "raters": [
+        {
+          "cohesion": 3,
+          "syntax": 2,
+          "vocabulary": 2,
+          "phraseology": 3,
+          "grammar": 2,
+          "conventions": 2
+        },
+        {
+          "cohesion": 2,
+          "syntax": 3,
+          "vocabulary": 3,
+          "phraseology": 3,
+          "grammar": 3,
+          "conventions": 3
+        }
+      ]
+    },
+    {
+      "id": "6B8C02811FF6",
+      "task": "Individuality",
+      "text": "Yes i agree for that all we have that be our selves for put to go out a head we live in the own world where the people judges our behavior and not sees its errors. because in this world to be bieng you yourself and don't matter how you are, you have that yourself, always we need remmerber that you can change the world, not the world change you.\n\nall of them we have a problem but we need learn, follow our dreams i want graduate this year sometimes i think i can't anymore but i have a son i need to follow because he follow me i want change the world for my son he need make a better person because he need help other people i want that he follow her dreams.\n\nwe need change our to think for that change the world we need make major people i need make better people i need help to the people poor, and the ancient people we need change our character because we want a better future for our children they need learn to be bette people they knoe our future.\n\nin the school i learn about no judge the people if we have a different type of skin and different color and nationality don\"t matter in this world all the peole are the same.\n\ni don't change my manner of to think because you need to be yourself. don't chage your ideas to be a big person in the world in conclusion don't worry be happy because the life is short you need live the life don't matter that the people think follow your dreams \" i want study in the university i want to pass my tests i want a be a big person that my son see that all can you can make whattever you want if you can and you want you can.\n\nWe can change the world for a world better.",
+      "human": {
+        "cohesion": 1.5,
+        "syntax": 2,
+        "vocabulary": 2,
+        "phraseology": 2,
+        "grammar": 2,
+        "conventions": 2
+      },
+      "raters": [
+        {
+          "cohesion": 1,
+          "syntax": 2,
+          "vocabulary": 2,
+          "phraseology": 2,
+          "grammar": 2,
+          "conventions": 2
+        },
+        {
+          "cohesion": 2,
+          "syntax": 2,
+          "vocabulary": 2,
+          "phraseology": 2,
+          "grammar": 2,
+          "conventions": 2
+        }
+      ]
+    },
+    {
+      "id": "C65705E1E072",
+      "task": "First impressions",
+      "text": "Human has been said that first impressions are almost impossible to change or influence the character. Does human can believe that first impression are almost impossible to change ?Based on our support ,we going to discuss it.\n\nPeoples' influences can almost change your altitude of understanding,many people are contaminate by their own environment where they live , certain believe on God whatever the type of believes ,they cannot change their impressions even the way they go through.\n\nHuman being uncontrolable in the Earth ,that affect the rate to make the problem grow up .The first impressions can be change if human wants to change to another impression more classifiable . The life knowledge affect also impressions , the education is the biggest issue to make you better ,parents can change the way you act by your impression . They play a huge rule in your life even in the future .\n\nBased on science fiction on National Geographie they test humans' impressions can change depend to your own enviroment which you are in .All supports surround for exemple , money, education, parents , drogue, environment can affect your impressions.",
+      "human": {
+        "cohesion": 2,
+        "syntax": 2,
+        "vocabulary": 3,
+        "phraseology": 2.5,
+        "grammar": 2.5,
+        "conventions": 3
+      },
+      "raters": [
+        {
+          "cohesion": 2,
+          "syntax": 2,
+          "vocabulary": 3,
+          "phraseology": 2,
+          "grammar": 2,
+          "conventions": 3
+        },
+        {
+          "cohesion": 2,
+          "syntax": 2,
+          "vocabulary": 3,
+          "phraseology": 3,
+          "grammar": 3,
+          "conventions": 3
+        }
+      ]
+    },
+    {
+      "id": "FF8A189E3BE4",
+      "task": "Influences of character",
+      "text": "I think my characters trait should be what i want it to be because i can make it whatever i want or whoever i want it to be. Making my character would be better because i would make it a great person and it would be peaceful. Characters who influence beyond our control would be bad because it would cause them to do whatever they want, characters who influence would do bad stuff.\n\nChoosing my character would be better became i can learn from mistakes and do better off them it would teach me how to be a good person. If my character was influenced it would be it would learn from its mistakes, it would do whatever it would want everyday.\n\nCharacter being influenced would suck because it didnt choose its trait. It would just look around and do whatever one else is doing he would want to dress like everyone else, buy shoes like everyone else when he could just be him.",
+      "human": {
+        "cohesion": 2,
+        "syntax": 3,
+        "vocabulary": 3,
+        "phraseology": 2.5,
+        "grammar": 2,
+        "conventions": 2
+      },
+      "raters": [
+        {
+          "cohesion": 2,
+          "syntax": 3,
+          "vocabulary": 3,
+          "phraseology": 3,
+          "grammar": 2,
+          "conventions": 2
+        },
+        {
+          "cohesion": 2,
+          "syntax": 3,
+          "vocabulary": 3,
+          "phraseology": 2,
+          "grammar": 2,
+          "conventions": 2
+        }
+      ]
+    },
+    {
+      "id": "CA3EB3AA11FC",
+      "task": "First impressions",
+      "text": "yes, I am agree with that ..\n\nBecause it's true the can show the the act of our felling in this three words ..\n\n1.. be anxious\n\n2.. Felling 3.. not to Belief the are self\n\n...\n\n1.. Be anxious .\n\nin the world 99% of population the have a lot of staff going on in the are idea or concept , to how to do the are work , how to do the are staff , and how to do the are poraplem self .\n\n,, and the have lot of pressures on the thought\n\n. an effect feeling or image retained after an experience . A mark produced on a surface by pressurre and the can show the felling thaey have . the did not seeying the are felling cuz the are sedition the are fell and the don't want to tell anyone and the are worry about it .\n\nthat why the can not change they are are life .\n\n2. Felling. .\n\nAll the copies of the a pubilcition printed at one time from the same set of type.\n\nsome people did not showing the are felling . the are state of being withe the are self and the can exp lean what the have wane what the have need to do in the live the are confuse for anything and the are scyer for that to tell anyone.\n\nsame time the are thinks if the do sorting wrong it,s never gonna right and never gonna right.\n\n3 . Not to Belief the are self.\n\nsometime the not blivet or respect the are self and the are urgent to someone else to do the are work and the can impressions the are felling. some time the sending a person to do somting for it .\n\nlike they are sending the a person to giving for something the are need it cuz the shameful to to something by the are self . and the are can not doing the staff the .\n\nIn the life everything in impossible we can do anything in live we can do the best we can go the way we want to go. over time everything is going to change the live , the friends, the staff , the feeling . the every secant . don't be shay for samthin you really when it or need it you can not Chang you can not be the beast you never be porfect in the live . be porfect in live if you not make your miss tikesa you can not be perfect in the feucher . if you take the right way you you be the best in the all live thake the good posittion and do good live witout the any impressions fell ......",
+      "human": {
+        "cohesion": 1.5,
+        "syntax": 1.5,
+        "vocabulary": 1.5,
+        "phraseology": 2,
+        "grammar": 1,
+        "conventions": 2
+      },
+      "raters": [
+        {
+          "cohesion": 2,
+          "syntax": 1,
+          "vocabulary": 2,
+          "phraseology": 2,
+          "grammar": 1,
+          "conventions": 2
+        },
+        {
+          "cohesion": 1,
+          "syntax": 2,
+          "vocabulary": 1,
+          "phraseology": 2,
+          "grammar": 1,
+          "conventions": 2
+        }
+      ]
+    },
+    {
+      "id": "171E655CC8F1",
+      "task": "Distance learning",
+      "text": "Attend classes from home by way of online can be a good idea but , in my position is not a good way for the student and can be innecesary or bad idea in many reasons.\n\nWhen the student is in home he going to do what he want he don't care the class he going to feel like if he don't have to do have to work in that class and he don't thing if he going to lost the class, one example is one of my friends he have a oline class but when he is in home he dont work because he dont care because no have one teacher who says \"Work or you no going to pass the class\" and thats one reason.\n\nMy second reason is when the student is taken online classes he just going to finish, he no going to learn because he dont care learn he just going to complete the leasons but just that, why? because he dont have the teacher who explaing when he have questions or when he is interesting in something of the class he no have the teacher who know more abaut that.\n\nSome people says when the student take the online class from home he are more concentrade however whent the student take this classes from home he are more distractic because he have the cellphone in his hand or he have the TV in the room, the dog, the play station and he going to prefer play or see movies than work on the classes.\n\nIn conclusion thye student can no work , no have the teacher for question or warn he can lostr the class or are more distractict or prefer play than work on the class are my reasons for no take online classes but with the good students can be a good idea.",
+      "human": {
+        "cohesion": 3,
+        "syntax": 2,
+        "vocabulary": 2.5,
+        "phraseology": 2,
+        "grammar": 2,
+        "conventions": 2
+      },
+      "raters": [
+        {
+          "cohesion": 3,
+          "syntax": 2,
+          "vocabulary": 3,
+          "phraseology": 2,
+          "grammar": 2,
+          "conventions": 2
+        },
+        {
+          "cohesion": 3,
+          "syntax": 2,
+          "vocabulary": 2,
+          "phraseology": 2,
+          "grammar": 2,
+          "conventions": 2
+        }
+      ]
+    },
+    {
+      "id": "DE962FEDCD9E",
+      "task": "Praising student work",
+      "text": "Being a successful person in life require some essential things. Successful person is someone who achieve goals in life and make dreams true. People who are preising for a good work will feel great and ready to start a new project to progress in life. People who have a success life can be because they haved teachers who praising they for doing outstanding school's project so, this inspirated they to try the best they can and be a successful person in their future. However somepeople believe praising a student's work to build self-steem is a good idea nevertheless, I think the source of true self-steem is archievement because, praising students who did a great job will feel amazing and also, it helps to have a better self-steem and students will have the ambition to improve their skills and archieve something to their future.\n\nPraising students who did a great job will feel amazing and also, it helps to have a better self-steem. Students feel great when someone is praising them so, this help they to feel better and happy. Positive personalities become to a good self-steem also, this make a better environment. Students with a good self-steem will be doing a better job and will make true the things their love. Praising great students can help to other students to try to do a better job like that great student and be praising like they. Praising students who did a great job will be benefitial for the entire classroom becoming a positive environment and making the students more active to do a better job to be praising like an outstanding student and this help they to progress and do things better.\n\nstudents will have the ambition to improve their skills and archieve someting to their future. The students in a classroom will want to be outstanding students so they will trying the best they can and start to progressing to reach that goal. Students with a good self-steem and smartness will want to have a great future and the ambition to be a better student every day. Praising students help they to improve their skills and doing their best. Students who are praising for a great job will help they to improve teir skills and do better jobs every day and become outstanding students.\n\nIn conclution, the source of true self-steem is archievement because when a great student is praising will have the ambition to improve every day more to become a better student. My suggestion is to start praising great students to make they and others to feel the ambition to be better every day and create a smart, competitive and happy environment.",
+      "human": {
+        "cohesion": 3,
+        "syntax": 2.5,
+        "vocabulary": 2.5,
+        "phraseology": 2.5,
+        "grammar": 2,
+        "conventions": 2.5
+      },
+      "raters": [
+        {
+          "cohesion": 2,
+          "syntax": 2,
+          "vocabulary": 2,
+          "phraseology": 2,
+          "grammar": 2,
+          "conventions": 2
+        },
+        {
+          "cohesion": 4,
+          "syntax": 3,
+          "vocabulary": 3,
+          "phraseology": 3,
+          "grammar": 2,
+          "conventions": 3
+        }
+      ]
+    },
+    {
+      "id": "6AB122D640E1",
+      "task": "Letter to employer",
+      "text": "If we work together the more we learn. From partnership you can learn and hear what other people come up with. I chose partnership because of diccuse in groups, work in groups, and learn more.\n\nFirst, discusing in groups is one thing that partnership is. If one person doesn't get something another person can come up with other ideas. If I came up with new ideas i can share my ideas with the group i'm in. People can also hear what another student can up with in their own ways. Students can also correct themselves if they messed up on a word.\n\nSecond, working in groups is another idea of working with partners. People can help one another if they are having trouble understanding something. I can also learn new things just by hearing what a student came up with. In a group we can also check each others paper to see what they came up with. We can all work together to come up with new ideas so that our paper makes sence.\n\nThird, by learning more we can get the hang of using that learn strategy. Coming up with new ideas to improve our writing. In group we can talk about each others paper if we think there should be a puncuation ore if a word is spelled wrong. If someone didn't puncuate a sentence correctly we can find a good puncuation to place it so that it would sound right. we acn also revise our paper to each other and hear what each others paper needs correction.\n\nIn conclusion, working in groups, learning more, and discuse in groups are reasons why i chose partnership. Working with partners brings new ideas in each others work.",
+      "human": {
+        "cohesion": 3,
+        "syntax": 2.5,
+        "vocabulary": 3,
+        "phraseology": 2.5,
+        "grammar": 2.5,
+        "conventions": 2.5
+      },
+      "raters": [
+        {
+          "cohesion": 3,
+          "syntax": 3,
+          "vocabulary": 3,
+          "phraseology": 2,
+          "grammar": 3,
+          "conventions": 3
+        },
+        {
+          "cohesion": 3,
+          "syntax": 2,
+          "vocabulary": 3,
+          "phraseology": 3,
+          "grammar": 2,
+          "conventions": 2
+        }
+      ]
+    },
+    {
+      "id": "BA89E5BB44E3",
+      "task": "Controlling extracurricular involvement",
+      "text": "I may not have experienced working before, but I will be very useful and responsible at work. For my first step to know better and experience about real world, which real wrold I meant after graduated college and have real career, I need to learn and experience how to work at here. I could've go to a other place but as I am teeneger, can not go to for long distance so I choose here. One of the reason you should hire me, is I was in varcity swim team at school before so I know how to team work with co-workers, and I could use team work for team for customer servise also, like if I brought wrong order for a customer, I apologize first and bring right order with some extra cutomer servise. Second, I al ways help my mom and do chores for her. Clean living room, kitchen, basement, bathroom, and other rooms. That helps me when customer is complaining about like a table is dirty, or floor is mess, I can go there quickly and clean them fast as I could and go back to my job. Also, my hobby is to playing games. But I limited the time when to stop so I do not over-play and control myself to keep playing and stay up till midnight. Also, I have lifeguard certificate, so I know how to first aid a customers. For example, when a customer start choking, I can first aid and if that succeed, that customer will lovd this place come more often then usual. As conclution, I never worked before, but I have all these skills and responsbilities, you should hire me tothis place.",
+      "human": {
+        "cohesion": 3.5,
+        "syntax": 2.5,
+        "vocabulary": 3,
+        "phraseology": 3,
+        "grammar": 2,
+        "conventions": 2
+      },
+      "raters": [
+        {
+          "cohesion": 4,
+          "syntax": 3,
+          "vocabulary": 3,
+          "phraseology": 3,
+          "grammar": 2,
+          "conventions": 2
+        },
+        {
+          "cohesion": 3,
+          "syntax": 2,
+          "vocabulary": 3,
+          "phraseology": 3,
+          "grammar": 2,
+          "conventions": 2
+        }
+      ]
+    },
+    {
+      "id": "E0209F1D5DF6",
+      "task": "Influencing behavior",
+      "text": "In this quote that Albert Schweitzer wrote said \"Example is not the main thing influencing others; it is the only thing.\" There are many different ways to influence other. for example talk to them about your experience.\n\nAlthough some say that should not influence other people about own behavior because people will get mad, actually some say there should be own behavior is the way to influence others because you can have more friend and be a good person.\n\nIn my opinion, the best way to influence other is talk softly and calm because they can understand more. For example if you scream everyday to them they will not respect you and then will not care anymore. They will be doing the same to other person.\n\nOther Person when they talk about they own behavior they get mad because they know what they are doing something bad they get nervous. Second they have to be brave to talk about to the doctor, for example if you kill somebody and you don't know what to do and you have bad attitude than you have to go to talk with somebody you trust, you have to be brave.\n\nBut as you can see there is many ways to influence other and had talk to them they will have good education.",
+      "human": {
+        "cohesion": 2.5,
+        "syntax": 2,
+        "vocabulary": 3,
+        "phraseology": 2.5,
+        "grammar": 2.5,
+        "conventions": 3
+      },
+      "raters": [
+        {
+          "cohesion": 2,
+          "syntax": 2,
+          "vocabulary": 3,
+          "phraseology": 2,
+          "grammar": 2,
+          "conventions": 3
+        },
+        {
+          "cohesion": 3,
+          "syntax": 2,
+          "vocabulary": 3,
+          "phraseology": 3,
+          "grammar": 3,
+          "conventions": 3
+        }
+      ]
+    },
+    {
+      "id": "605C1B4CE788",
+      "task": "Individuality",
+      "text": "Today I'm going to share my thoughts about Author Ralph Waldo Emerzon wrote to be yourself in a world that is constantly trying to make you something else is the greatest acomplishment.\n\nI would say yes is the greatest acomplishment because if you trying to be someone in the world but you don't have no body to be with you is wanna be more difficult but if you try your best you can make it but if you have like people with you that is trying to help you is wanna be more easy, so I think to be your self in world that is constantly tying to make you something else it's one of the greatest acomplishment.\n\nI would say is true because to be yourself around people that is negative is wanna be difficult. So to be yourself in a world that is constantly trying to make you soemthing else is the greatest acomplishment.\n\nfor example\n\nIf you just been yourself and you making all that you want, a lot of people they not wanna like that so they wanna try to make you fall, so if you been in a world that is constantly trying to make you else is always wanna be the greastest acomplishment.\n\nif you are in a world that people like you only for been yourself it is good becasue you just been yourself you can make anything happen and if you have a world that is constantly trying to make something else is the best acomplishment because everything is wanna be more easy for you sometimes you have to choose decision and i think just been yourself you always can taje the right ones",
+      "human": {
+        "cohesion": 2.5,
+        "syntax": 2.5,
+        "vocabulary": 3,
+        "phraseology": 2.5,
+        "grammar": 2.5,
+        "conventions": 2
+      },
+      "raters": [
+        {
+          "cohesion": 3,
+          "syntax": 3,
+          "vocabulary": 3,
+          "phraseology": 3,
+          "grammar": 3,
+          "conventions": 2
+        },
+        {
+          "cohesion": 2,
+          "syntax": 2,
+          "vocabulary": 3,
+          "phraseology": 2,
+          "grammar": 2,
+          "conventions": 2
+        }
+      ]
+    },
+    {
+      "id": "98DE8992E379",
+      "task": "First impressions",
+      "text": "I'm agree because your first impression it will be the one that represent who you are and it will show your personality, and the people will judge you becauseyour aparience and your actitude, for example, when i was looking for a jod at chipotles restaurant for the first time, they where looking at me strange like i was a bad person or a criminal.\n\nThe next day i went to popeye's restaurant with different type of clothes, and they didn't look at me in a strange way, and that was because i was dressing properly, and because my friend tell me to dress better because in the first time when i went to chipotle i was dressing as a bad guy and that make me look inapropiate and i did get the job.\n\nAfter that i went to chipotle restaruant just for fun to prove if my friend was right and he was, the people from chipotle didn't look at me in a strange way as the first time, i think it's because they didn't remember me but when the manager comes he said, \"hoo hellow you're back,\" then he leave.\n\nThe manager was the only person who remembers me and he did not change his opinion about me, i didn't care because by that time i did get the job at popeyes so i decide to leave out of there.\n\nIn conclution that day i learn that the first impresion metter and it could affect in your life.",
+      "human": {
+        "cohesion": 3.5,
+        "syntax": 2.5,
+        "vocabulary": 2.5,
+        "phraseology": 3,
+        "grammar": 2.5,
+        "conventions": 2.5
+      },
+      "raters": [
+        {
+          "cohesion": 4,
+          "syntax": 3,
+          "vocabulary": 2,
+          "phraseology": 3,
+          "grammar": 3,
+          "conventions": 3
+        },
+        {
+          "cohesion": 3,
+          "syntax": 2,
+          "vocabulary": 3,
+          "phraseology": 3,
+          "grammar": 2,
+          "conventions": 2
+        }
+      ]
+    },
+    {
+      "id": "1DE0E7C48DF0",
+      "task": "Controlling extracurricular involvement",
+      "text": "I know not all of us may have experience in every way. For example i may not be experienced in everything but as long as someone is their to hep me i will be wiling to work and do what is needed.\n\nSome jobs look for the days they need their employees, Most places won't hire if you dont got what the job is actually looking for. Its better to find a place you find comfortable working at. Most jobs require-\n\ncertain age experience availability\n\nMangers go for people who they see doing good in their job. For me i know i have job myself and it wasnt easy to find. I had no experience i didnt know anything. I was trained like every other employee at my job, But now i know a lot more positions. If my manager is low on staff he knows he can rely on me to come in and help, better for me i make more hours which makes me makes me happy knowing I'm making money for myself.\n\nIts better having a job where you get along with your employees. Find something your really interested. Dont choose something is gonna make you miserable.\n\nOne day their is gonna be job youll have where they pay more then you will get paid for a part time an youll probably get more then $8 of course.",
+      "human": {
+        "cohesion": 2.5,
+        "syntax": 3,
+        "vocabulary": 3.5,
+        "phraseology": 3,
+        "grammar": 3.5,
+        "conventions": 3
+      },
+      "raters": [
+        {
+          "cohesion": 2,
+          "syntax": 3,
+          "vocabulary": 4,
+          "phraseology": 3,
+          "grammar": 3,
+          "conventions": 3
+        },
+        {
+          "cohesion": 3,
+          "syntax": 3,
+          "vocabulary": 3,
+          "phraseology": 3,
+          "grammar": 4,
+          "conventions": 3
+        }
+      ]
+    },
+    {
+      "id": "7A7D7BC53938",
+      "task": "Positive attitudes",
+      "text": "Its a fact that possitive actitude is the key of succses. In every single thinsg that you made, or every single act that you take, even a small ane like blink if you are not confident in what you are doing, on that i will make it fealling, you will be failing.\n\nThat does not mean that fealing is a bad thing because fealing is a important aspec of successes. Not only because you will learn from the mistakes that led you to the failing box. But also you will come back knowing against what you are figthig with, next time you will be back with a diferent set of mind, with a diferent plan, even with a diferent actittude, and all that because one thing wich all the people says is bad.''Fail''.\n\nbut lets be honest, why would somebody fail if you have the chace to be successfull ?, because if you are not going to win and get what you want and are looking for, do not even struggle, stay at home laying donw and watching some series. There is a real hungry world with real hungry people out there and if you are just giving the 75 percent it of your capacity it would be just not enougth.\n\nThats were positive actittude comes up, if you know your value and you are wheling to give the one hundred percent you dont have to worry.\n\nIf you are confident and positive you will go for what you are looking fof do not matter who is agaist you, do not matter what the people would say and specially it do not matter the cost of it. That is the key of success.",
+      "human": {
+        "cohesion": 3.5,
+        "syntax": 3,
+        "vocabulary": 3,
+        "phraseology": 3,
+        "grammar": 3,
+        "conventions": 2.5
+      },
+      "raters": [
+        {
+          "cohesion": 4,
+          "syntax": 3,
+          "vocabulary": 3,
+          "phraseology": 3,
+          "grammar": 3,
+          "conventions": 2
+        },
+        {
+          "cohesion": 3,
+          "syntax": 3,
+          "vocabulary": 3,
+          "phraseology": 3,
+          "grammar": 3,
+          "conventions": 3
+        }
+      ]
+    },
+    {
+      "id": "50611B996992",
+      "task": "Four-day work week",
+      "text": "During this time our society are magnifying in many ways. Therefore, people has to work, study, or do any personal things every day. People don't conseve their energy and resources in the way that people get tired daily. Nonetheless, there are some businesses had the idea to work four days per week each day consistenting of ten hours. As well as, schools should follow this project by extending the school day two hours. In my opinion, school should follow this great idea because students can do differents routine, be less stressful, and get better grades.\n\nTo begin with, the majority of students do the same rutine daily some enjoy to play sports on the school. Whereas, someone will like to try another kind of sport outside the school but they don't have sufficient time to do it. Elsewhere, if the school follow extending the school day and leaving one or two days off students can do different rutine and have thier own space. All in all, students can try different sports with their families or friends outside of school. In others words, doing differents routine will help the energy and resources for students.\n\nSecond reason, for some students is stressful go to school everyday. As well as, some has to work to late, or do homework, or has problent to get sleep at night. If this happend during this time they loss their energy and is difficult for student to focus on their class. However, students that are stressful can have health problem. In other case, students can be less stressful and active if their sleep more such as, if they get two days off of the school they can repose their tiredness and get energy.\n\nLastly, the energy and resources are a important priority for a student. Likewise, that all students do their homework and be on time in their class. nevertheless, the majority of the students has problem be on time or do homework some of them miss school days just because they didn't do their homework. Altogether, durin this days off students can do their homework with resources, patience and dedication. After all, this could help student to have better grades.\n\nTo conclude, the priority for people life is to conserve energy and resouces. Rather, we are on time to help our students's health. Lately, doing different rutine will help us to progress and be healthy. If we are healthy we are less stressful we will be with energy. After all, energy, time, and resources are the key to be successful.",
+      "human": {
+        "cohesion": 3.5,
+        "syntax": 3.5,
+        "vocabulary": 3,
+        "phraseology": 3,
+        "grammar": 2.5,
+        "conventions": 3
+      },
+      "raters": [
+        {
+          "cohesion": 4,
+          "syntax": 4,
+          "vocabulary": 3,
+          "phraseology": 3,
+          "grammar": 3,
+          "conventions": 3
+        },
+        {
+          "cohesion": 2,
+          "syntax": 3,
+          "vocabulary": 3,
+          "phraseology": 3,
+          "grammar": 2,
+          "conventions": 3
+        }
+      ]
+    },
+    {
+      "id": "7862D2AE5697",
+      "task": "Success and failure",
+      "text": "Failure playes a huge part of becoming successful. By failing people are learning on how not to make the same mistakes again. For example lets say that i was trying to become a professional soccer. I played for the best clubs, i was named the best player in the team, and i have never been cut from a team. One day my coche tells me that there is a professional soccer try out next week and he want me to get ready. So he gives me a schedual on what i should be doing to get fit. Everyday i have to eat right and train hard. I did all of those things somedays i did not want to train and just start eating unhealthy but i fought through it. Try out day comes and i was ready as i will ever be. we started out with warm ups and went to drills. I was amazing. i was like the best player at the fiald. at the end of the day they gathered every body up and called all the people that made it. I was not one of them. I have failed to become a pro soccer player. Now this is the part where enthisiasm playes a role. I can eather stop playing soccer and choes a diffrent routh or i can pick my head im and try again. Failing tests you on how pationant you are at what you are doing and are you willing to fail again and again to be succesful. A good example would be the book persude of happynes. In this book the main person makes a muchen and he wants to sell in. But nobody would buy it. He was also a dad with one kid and lived in a motal. he got kicked out of the motal because he was not able to pay his bills. So he was homeless for a cuple of weeks. Even though he was homeless that did not stop him from trying to sell his machean. Still nobody was willing to buy it off of him. Finaly after his ups and downs somenoe bought his muchean. The person that bought it told some people on how good the machen was and they started to buy it to. He became successful because he did not give up on his dream even though he was geting regected every time he tryed to sell it. failure is the key to your success.",
+      "human": {
+        "cohesion": 2.5,
+        "syntax": 3,
+        "vocabulary": 3,
+        "phraseology": 2.5,
+        "grammar": 3,
+        "conventions": 2
+      },
+      "raters": [
+        {
+          "cohesion": 2,
+          "syntax": 3,
+          "vocabulary": 3,
+          "phraseology": 2,
+          "grammar": 3,
+          "conventions": 2
+        },
+        {
+          "cohesion": 3,
+          "syntax": 3,
+          "vocabulary": 3,
+          "phraseology": 3,
+          "grammar": 3,
+          "conventions": 2
+        }
+      ]
+    },
+    {
+      "id": "77BB33DB5187",
+      "task": "First impressions",
+      "text": "The first impresions\n\nThe next text is about \"The firts impresions can change with the pass of time\". The object is give information to the reader about different things that make that the first impresions change, and how can affect. The text is made with examples and support ideas, that help to understand more the theme. Then tell that the impressions can change anytime.\n\nThe first impresions is when you current know at someone or something. It is the first opinion that you mind create, but this impresions or idea can change when you start to know better. When we current know a person, our mind create a idea that can be false or true, but is something that only can know with the time.\n\nThe change can affect or can benefit, that means that sometimes we thinks that is good and bad, thinks that is bad and is good. A example of affect is when we buy a car, and these is look like beautiful for autside, but when a mechanical check inside descover that have many damage. A example of benefit is when somebody told you something bad of other person, and when you talk with that person you descover that is false.\n\nThe first impresions can change for many reasons that our mind create; for example, false opinion, dissapointment, angry, or autocorrection. All these can have influence when you change your impresions of someone or something. For example, when we are angry all is look like bad or annoying. Other example, when we make a autocorrection of something that we believed that was bad or incorrect.\n\nIn my conclusion the firt impresions it's very important, no always going to be good or bad, your opinion going to change. I think when you don't know at someone or something is better wait a litte before make a bad or good idea about it. If for that I think that the firts impresions can change while passing the time.",
+      "human": {
+        "cohesion": 3,
+        "syntax": 2,
+        "vocabulary": 3,
+        "phraseology": 2.5,
+        "grammar": 3,
+        "conventions": 2.5
+      },
+      "raters": [
+        {
+          "cohesion": 3,
+          "syntax": 4,
+          "vocabulary": 3,
+          "phraseology": 3,
+          "grammar": 3,
+          "conventions": 4
+        },
+        {
+          "cohesion": 3,
+          "syntax": 2,
+          "vocabulary": 3,
+          "phraseology": 2,
+          "grammar": 3,
+          "conventions": 2
+        }
+      ]
+    },
+    {
+      "id": "B379CB700CCD",
+      "task": "Impact of technology",
+      "text": "Technology is making people's lives easier, because with technology people can find jobs, play video games, read books, and talk to other people, and buy buy products online thats why technology is a good effect, because is helping a lot of people, because without technology it would it be hard to find a job , you would have to travel a lot to find a job, to comminicate with someone that is from anoher state you would have to travel just to tlak with your friend , and it would be hard to buy stuffs because you would have to look for the thing that you want to buy and travel to other state and pick it up.\n\nWith technology buying stuffs online is easy you can pay for the things that you're buying and they wil deliviered it to your house.\n\nTechnology is around the world wherever you go you will see technology.\n\nMilitary uses technology to train their soldiers.\n\nTechnology is neccesary for everyone its helping a lot of persons to make their lifes an easy way.\n\nTechnology is helping scientifics to discover bacterias or make new medicine for cancer or other problem.",
+      "human": {
+        "cohesion": 2.5,
+        "syntax": 3,
+        "vocabulary": 3,
+        "phraseology": 3,
+        "grammar": 3,
+        "conventions": 2.5
+      },
+      "raters": [
+        {
+          "cohesion": 2,
+          "syntax": 3,
+          "vocabulary": 3,
+          "phraseology": 3,
+          "grammar": 3,
+          "conventions": 2
+        },
+        {
+          "cohesion": 3,
+          "syntax": 3,
+          "vocabulary": 3,
+          "phraseology": 3,
+          "grammar": 3,
+          "conventions": 3
+        }
+      ]
+    },
+    {
+      "id": "6CB7C1B3C548",
+      "task": "Lessons with elementary school students",
+      "text": "Do you image a Middle School student being in you classroom and telling you what you shouldnt do so you dont get introble I you future at school. Have you ever though what you can do to stay out of trouble in school? You might always have that one friend that gets introble a lot right? Ways you can prevent that from being you is try to prevent from getting into a fights that would just make it a bad idea, if you know someone that is doing what they are not so post to tell a teacher, dont make a poor choice and you get introble because you decided that you were going to do something that your friends wanted you to do.\n\nWhen you get into a fight in school the only thing that that will do to you is get you into in school suspension or you would get suspended from school for a while. You dont want to get in school suspended that would just get you in a room with a teacher and you are not going to be able to talk to anyone. If I were you and I knew that some one wants to get into a fight I would ell the teacher and let them handle it not you. Another thing that if you do while there is a fight at your school and you record it you could get in trouble by that as well.\n\nIf you know something is wrong with a friend and they need help from an adult I would tell a teacher at school that can help them or there parents if you know them. If you try to help a friend by talking to the person that made your friend feel upset you could feel a friends mom or some adult you know close to your family.\n\nWhen you made a poor choice it could get you in a lot of trouble when you are hanging around with friends and they want to do something thats not a good choice you could talk to them and tell them that is not going to be a good idea. A lot of times when kids make a poor choice they would have to face the consequences and they may not like them but they should of thought the things two times before they made there design.\n\nThere are so many different ways that you can stay our of trouble but theses three are the most common ones that i know of try not to get into a fight, help out your friends or tell an adult if they need help from some one, and dont make poor choices.",
+      "human": {
+        "cohesion": 3.5,
+        "syntax": 3.5,
+        "vocabulary": 4,
+        "phraseology": 4,
+        "grammar": 4,
+        "conventions": 3
+      },
+      "raters": [
+        {
+          "cohesion": 3,
+          "syntax": 3,
+          "vocabulary": 4,
+          "phraseology": 4,
+          "grammar": 4,
+          "conventions": 3
+        },
+        {
+          "cohesion": 4,
+          "syntax": 4,
+          "vocabulary": 4,
+          "phraseology": 4,
+          "grammar": 4,
+          "conventions": 3
+        }
+      ]
+    },
+    {
+      "id": "D84024335230",
+      "task": "Talents and skills",
+      "text": "People are love challenges and learn new languages. There are 67 languages have spoken in the world, 8.9% of us speak Vietnamese. Vietnamese is on top 10 hardest language has spoken. My skill is can speak Vietnamese fluently. I can do a lot of things with Vietnamese, such as translate English to Vietnamese, teach my friends how to speak Vietnamese and to communicate with others Vietnamese.\n\nI can speak both Vietnamese and English at the same time, so that's mean I could translate from English to Vietnamese or even Vietnamese to English. Don't you think it would be helpful for your parents when you 're on a family vacation. That is my main job whenever I go out with my mom, because she doesn't speak English or able to understand it.\n\nMy friends are love Vietnamese, they always convince me to teach them this amazing language. When I come to my class my friend start saying \"Xin Chao\" it means \"Hello\" in English, I'm so glad that they love and want to learn it. I had a friend who is American, I taught him how to speak Vietnamese, and now he can speak Vietnamese like his home language.\n\nHowever it would be helpful if you are in Vietnam or a place where the most Vietnamese people lives, you could ask them in Vietnamese when you need help( I bet if you are from a foreign country and you can speak Vietnamese, they will think you're super cool). I remember that one time, I had a family reunion and I went to Vietnam. Then I was lost, I tried yell \"Help me, I lost, I can't find my parent\", but they couldn't understand what I was said, luckily I can speak Vietnamese, I asked them where is the police station so I could find my parents.\n\nOverall, Vietnamese is the perfect language to learn if you want to challenge yourself. It would help you a lot if you want to visit Vietnam one day.",
+      "human": {
+        "cohesion": 3.5,
+        "syntax": 3.5,
+        "vocabulary": 3.5,
+        "phraseology": 3.5,
+        "grammar": 3,
+        "conventions": 4
+      },
+      "raters": [
+        {
+          "cohesion": 3,
+          "syntax": 3,
+          "vocabulary": 4,
+          "phraseology": 3,
+          "grammar": 3,
+          "conventions": 4
+        },
+        {
+          "cohesion": 4,
+          "syntax": 4,
+          "vocabulary": 3,
+          "phraseology": 4,
+          "grammar": 3,
+          "conventions": 4
+        }
+      ]
+    },
+    {
+      "id": "3E1A0BAC4372",
+      "task": "Imagination",
+      "text": "Sometimes knowledge is very helpful but sometimes imagination could be helpful to.\n\nWhen I was seven years old I imagined many things but they never happened. When I turned 13 years old things changed and they were not the same as I imagined before. I thought that I was gonna acomplish those imaginations in my head but they never did. One day I noticed that imaginations were not better than knowledge.\n\nOne day my mom and I were suffering because we couldn't get to the other side of the river and we decided to build a boat to get to the other side and we made it. The knowledge we used was unexpected because we never thought we were gonna make it to the other side. Knowledge is very helpful when you are struggling with something but you also use imagination because you think before building or making something.\n\nI believe that imagination could be important sometimes but knowledge is more helpful and we use it very often. Imagination could change things but not better than knowledge. We might always think that imagination is better I agree with you but if you think of how easy it would be use knwoledge while you are struggling than you would understand the differences.\n\nKnowledge is very helpful in many ways and very often. I disagree with the prompt saying that imagination is better than knowledge. Always try something first and if it doesn't work try using something else. You will always find the solution on something different just like I did with my mom. Always think of something that you can use to solve a problem.",
+      "human": {
+        "cohesion": 2.5,
+        "syntax": 3.5,
+        "vocabulary": 3,
+        "phraseology": 3.5,
+        "grammar": 4,
+        "conventions": 3.5
+      },
+      "raters": [
+        {
+          "cohesion": 3,
+          "syntax": 4,
+          "vocabulary": 3,
+          "phraseology": 4,
+          "grammar": 4,
+          "conventions": 4
+        },
+        {
+          "cohesion": 2,
+          "syntax": 3,
+          "vocabulary": 3,
+          "phraseology": 3,
+          "grammar": 4,
+          "conventions": 3
+        }
+      ]
+    },
+    {
+      "id": "68E75FD12673",
+      "task": "Spending time outdoors",
+      "text": "Have you ever been to a park ? Chances are you have, It doesn't matter what kind but you most certainly had fun right. Going to parks Is always fun, mostly because of the activities you do at the park to have fun. At the park you always find a fun activity to do, and people enjoy doing those fun activities because you get to play with other people, you are able to make new friends, and most of those activities can help you live a healthy life.\n\nWhen people go to the park the tend to do fun activities, and most of the time they play those activities with friends and or other people. And when you play those activities with someone else you can have more fun. Another good reason for playing with someone else Is you also get to talk to them. And when you start playing with someone It could lead up to more people joining, and will make It even more fun. So remember when you go to the park try to bring a friend so you both can have lots of fun at the park.\n\nPeople like going to the park to do fun activities, and when they go they often start to talk to new people. When they talk to new people theres a high chance of them becoming friends, So another reason why they enjoy the park Is they can make new friends. And who doesn't like to make friends, as a result they can meet up at the park and have fun together. And then they'll eventually make a more friendly status with each other. So going to park can be enjoyed in different ways, theres a chance you might just make a new friend.\n\nFinally my last reason why people go to the park Is they can enjoy the park and the activities and also live a healthy life. You might not even notice that most of the activities we do at the park can be positive and help us with a healthy life. Its Is always a positive thing to live a healthy life you can do so much by keeping your life healthy. Thats why most people like going to the park you can have fun and be healthy at the same time. These were reasons why people like going to the park, plus who doesn't like the park.\n\nPeople like going to the park for many reasons, and all of these reason were positive. Who doesn't want to play with friends or other people, who doesn't want to make new friends, or even have and live a healthy life. So If you hate parks just remember these reasons why you should go, It can make your like very happy.",
+      "human": {
+        "cohesion": 4,
+        "syntax": 4,
+        "vocabulary": 3,
+        "phraseology": 3.5,
+        "grammar": 4,
+        "conventions": 4
+      },
+      "raters": [
+        {
+          "cohesion": 4,
+          "syntax": 4,
+          "vocabulary": 3,
+          "phraseology": 3,
+          "grammar": 4,
+          "conventions": 4
+        },
+        {
+          "cohesion": 4,
+          "syntax": 4,
+          "vocabulary": 3,
+          "phraseology": 4,
+          "grammar": 4,
+          "conventions": 4
+        }
+      ]
+    },
+    {
+      "id": "FEC7696871E4",
+      "task": "Imagination",
+      "text": "Scientist Albert Einstein said,\" Imagination is more important than knowledge.\" I really agree with him. Imagination can make yourself happier, can help people, it also can find a nice job that you want. What are these things mean? Let me tell you in this essay.\n\nFirst, imagination can make yourself happier. Why? It is because you can imagine something that you like. For example, you want to fly like a bird but you can't do that. You can imagine how that feel. It feels free? Comfortable? Or tired? You can also imagine how you look like when you were 100 years old. Imagination make yourself happy.\n\nSecond, how can imagination help people? Let's think about if there is a child crying in the mall and everyone look at her because she dress so weird. You can use your imagination at this moment. You may told her to imagine with you. For example,\"Don't crying sweetie, think about everyone look at you is because you dress like a princess. Now you are visiting them. You have to be nice and elegant. \" Maybe she will stop crying.\n\nLastly,parents always said \" You can't find a nice job that you want by having your imagination.\" I think you can find a job with your imagination. For example, if you want to be a home designer but you don't have imagination. You make the house so horrible. You will got fired and you can't earn money. On the other hand, if you want to be writer and you can imagine lots of things and create 30 or more excellent books. You can earn lot of money even earn more that a doctor. So, I think Imagination can find a really nice job that you want.\n\nTo sum up, I totally agree with Scientist Albert Einstein. \" Imagination is more important than knowledge. Imagination can make yourself happier, can help people, or find a nice job that you want. I think it imagination is the most important thing in the world!",
+      "human": {
+        "cohesion": 2.5,
+        "syntax": 2.5,
+        "vocabulary": 3,
+        "phraseology": 3.5,
+        "grammar": 3,
+        "conventions": 3
+      },
+      "raters": [
+        {
+          "cohesion": 3,
+          "syntax": 3,
+          "vocabulary": 3,
+          "phraseology": 4,
+          "grammar": 3,
+          "conventions": 3
+        },
+        {
+          "cohesion": 2,
+          "syntax": 2,
+          "vocabulary": 3,
+          "phraseology": 3,
+          "grammar": 3,
+          "conventions": 3
+        }
+      ]
+    },
+    {
+      "id": "7E5F489C8CE4",
+      "task": "Imagination",
+      "text": "I agree that imagination is more important than knowledge because when you imagine of doing something very important, like for example; you want to be successful in school education to become like a doctor, teacher, artist, or scientist.\n\nAnyone in the world can be a smart and better person by working on a job to study about objects, study about computers like the use of technology and the learning of cybersecurity, and to visualize and gain your experiences on working in any job you want work on by putting effort and using your brain.\n\nFor example, you can imagine of becoming a scientist to learn about sceince, like chemicals, plants, experiments, and understanding more information about science and other objects by experiencing things. Like the more you imagine about things you experience through your job, the less knowledge you have to learn about something that haven't exist in the ability of inventing something creative that is very useful and better than anything.\n\nAll you have to do is believe in yourself and use your imagination like to decide whether invent something particular than the other like building a house, a long bridge, and create like a watch to study about anything and learn more about it, you can invent, create, study anythingby using your imagination by experiencing more about things you want to do when you grow up by using your brain, and knowledge to put more effort into jobs. You can also invent instruments, like an accordion, violin, guitar, and a piano, and you can imagine anything like cool stuff, like being an expert at teaching in school like a teacher, studying science,\n\nbeing a doctor, a builder to invent or build stuff like buildings, or a manager who is in charge of training any team or an athlete for the next match, by having the ability to use your imagination.\n\nWe all know that using your imagination is a better thing to do than using knowledge, like imagining to build, invent, or do anything in your experience by learning more imformation, support, and details about using imagination of doing anything.",
+      "human": {
+        "cohesion": 3,
+        "syntax": 2.5,
+        "vocabulary": 4,
+        "phraseology": 3,
+        "grammar": 3.5,
+        "conventions": 4
+      },
+      "raters": [
+        {
+          "cohesion": 3,
+          "syntax": 3,
+          "vocabulary": 4,
+          "phraseology": 3,
+          "grammar": 4,
+          "conventions": 4
+        },
+        {
+          "cohesion": 3,
+          "syntax": 2,
+          "vocabulary": 4,
+          "phraseology": 3,
+          "grammar": 3,
+          "conventions": 4
+        }
+      ]
+    },
+    {
+      "id": "7AF7DC456D3C",
+      "task": "Career commitment",
+      "text": "This program is helpful for younger students because it would get work accomplished with the presence of the older student. Older students that volunteer helping younger students would make younger students feel more at ease. Younger students won't have to deal with their assignments being due because they already turned it in. This program will help younger students study with assistance by the older students to get a high grade in tests or quiz. Older and younger students can play board games or read a book to help them get better with their English and writing skills.\n\nPlay outside basketball, soccer, football, etc just to have fun and waste that energy. Younger students who want to pick sports is fine as well, Older students can support or encourage younger students to do what they want. Older students can review things in the year for younger students to remember the key things or notes for the SOL's. Then younger students won't have to fail the SOL because they have the knowledge to surpass the test. Younger students with knowledge can get past Elementary, Middle, and High school and get that degree to College leading them to jobs they need or want in the future.",
+      "human": {
+        "cohesion": 3.5,
+        "syntax": 4,
+        "vocabulary": 4,
+        "phraseology": 4,
+        "grammar": 3.5,
+        "conventions": 4.5
+      },
+      "raters": [
+        {
+          "cohesion": 4,
+          "syntax": 4,
+          "vocabulary": 4,
+          "phraseology": 4,
+          "grammar": 3,
+          "conventions": 5
+        },
+        {
+          "cohesion": 3,
+          "syntax": 4,
+          "vocabulary": 4,
+          "phraseology": 4,
+          "grammar": 4,
+          "conventions": 4
+        }
+      ]
+    },
+    {
+      "id": "F673BCEC3BD1",
+      "task": "Self-reliance",
+      "text": "People who value self-reliance define dependence. Following your own instincts and making your own decisions is the whole point of life in my opinion. It makes a person more independent and trustworthy. Also, helps a person learn from own mistakes.\n\nA person will always have guidance. Whether its from parents, teachers, police officers, or even a person you dont even know can give you some type of guidance. It always goes back on how the individual is going to view it. Independence is very important. Having full control and capability of standing alone can make a person realize what is best for them. Also, not being easily influenced can help a lot. Understanding what is best for you can make your decisions much easier.\n\nPeople need to learn from their own mistakes. Mistakes happen every day. A persons instincts may not always be right but it will benefit them in the future. Another person is not going to tell you something you want to hear or give you the assurance you need for something. They may think they know whats best for you but personally for you, it could not be the best. Knowing yourself and knowing how you like things to be done is another example of self-reliance.\n\nSeeking guidance from experts and authorities can be the right thing to do. It can save a person from debating too much on a decision. Help a person plan better for the future and not really let the person struggle. As well, as to prevent the individual to stress out of what not knowing to do. However, a persons own instincts and ideas is what makes the person value self-reliance. And know whats best for them. Who knows you better than you?\n\nTo conclude, its all about self perspective. On how you view things for yourself and your future. Being independent and not rely on others opinions. Having your own thoughts and opinions. Accepting that making mistakes is okay not everything has to be right and perfect.",
+      "human": {
+        "cohesion": 4.5,
+        "syntax": 4,
+        "vocabulary": 4.5,
+        "phraseology": 4.5,
+        "grammar": 3.5,
+        "conventions": 4
+      },
+      "raters": [
+        {
+          "cohesion": 5,
+          "syntax": 4,
+          "vocabulary": 5,
+          "phraseology": 5,
+          "grammar": 4,
+          "conventions": 4
+        },
+        {
+          "cohesion": 3,
+          "syntax": 4,
+          "vocabulary": 4,
+          "phraseology": 4,
+          "grammar": 3,
+          "conventions": 4
+        }
+      ]
+    },
+    {
+      "id": "9DD22B9D10F4",
+      "task": "Impact of technology",
+      "text": "Technology is taking over the world! There is now less human contact. People may think that the limitation of human contact due to the use of technology has positive effects on their lives, but that is false. The limitation of human contact due to the use of technology has a negative effect on people's lives because it impacts their health in a negative way and people get too dependent on technology.\n\nHealth is very important, but people take good health for granted; To begin with, technology may impact individuals health in a negative way. For example, people's vision might get blurry and people that are looking down at their electronic devices impacts their neck position. Furthermore, people may slouch down when they are using a computer. This is important because people need to be more aware of what can effect their health in a horrible way.\n\nThe use of technology is phenomenal, people use it in their every day lives. Therefore, individuals get too dependent on technology; For instance, Individuals use technology to communicate with others and they use it for location. In addition to that, people use technology to educate themselves. Although those are beneficial perks, it causes people to be too dependent on technology. This is important because instead of people completing tasks with technology, they can easily do it themselves. To illustrate, if people want a snack they can walk down to the store and buy it instead of ordering it online\n\nPeople think that the limitation of human contact due to the use of technology has positive effects on their lives since people with no available transportation can order online or if others live in a area that is dangerous, they can order online to receive the things that they want to be safe; However, technology has a negative impact since it makes people risk their health. In conclusion, the limitation of human contact due to the use of technology has a negative effect on people's lives because it can possibly impact their health in a horrible way and people get too dependent on technology, but they use it to help themselves.",
+      "human": {
+        "cohesion": 4.5,
+        "syntax": 4,
+        "vocabulary": 4,
+        "phraseology": 4,
+        "grammar": 4.5,
+        "conventions": 4
+      },
+      "raters": [
+        {
+          "cohesion": 5,
+          "syntax": 4,
+          "vocabulary": 4,
+          "phraseology": 4,
+          "grammar": 5,
+          "conventions": 4
+        },
+        {
+          "cohesion": 4,
+          "syntax": 4,
+          "vocabulary": 4,
+          "phraseology": 4,
+          "grammar": 4,
+          "conventions": 4
+        }
+      ]
+    },
+    {
+      "id": "E3096B04916A",
+      "task": "Controlling extracurricular involvement",
+      "text": "Nowadays many students become involved in extracurricular activities to enrich their educational experiences. There is a debate if school should or should not control students involvement in extracurricular activities. Some people think that students should be more involve in extracurricular activities. However, I think that the decision regarding extracurricular involvement should be left to students and their families because students will have to much pressure on their shoulders, students will not have enough time to complete school assignments or study, and students have to work.\n\nOne reason, why the decision regarding extracurricular involvement should be left to students and their families is that students will have to much pressure on their shoulders. They will be always worrying about school stuff and the fact that they have to spend a lot of time in extracurricular activities. Spending to much time on extracurricular activities can led students to a depression. They will not get enough rest because of not doing anything else ,but extracurricular activities. Students will get tired that they would not want to do anything else. Students\n\nAnother reason, why the decision regarding extracurricular involvement should be left to students and their families is that students will not have enough time to complete school assignments or study. Students will have little time to study for a test or quiz. Evidently, not having enough time to study can led students to fail their classes. Students will not turn homework or projects on time. Students deserve to have extra time to study.\n\nFinal reason, why the decision regarding extracurricular involvement should be left to students and their families is that students have to work. Students work to be independent. Students work to pay for their future education. Students work to help their families financial. Students work to achieve their future goals. They work to not have a miserable life in their future. Work will give them more opportunities in their life.\n\nTo conclude, for these reasons and so many more is why I think that the decision regarding extracurricular involvement should be left to students and their families. Students will have a lot of pressure, students will have lack of time to study or finish with their homework, and students got a job. Schools should think a little bit more about student's responsibility and how controlling students involvement extracurricular will impact their life. I know that the education is very important ,but student deserve to make their own decisions.",
+      "human": {
+        "cohesion": 4,
+        "syntax": 3,
+        "vocabulary": 4,
+        "phraseology": 4,
+        "grammar": 3,
+        "conventions": 4
+      },
+      "raters": [
+        {
+          "cohesion": 4,
+          "syntax": 3,
+          "vocabulary": 4,
+          "phraseology": 4,
+          "grammar": 3,
+          "conventions": 4
+        },
+        {
+          "cohesion": 4,
+          "syntax": 3,
+          "vocabulary": 4,
+          "phraseology": 4,
+          "grammar": 3,
+          "conventions": 4
+        }
+      ]
+    },
+    {
+      "id": "822F6C3B3C03",
+      "task": "Being busy",
+      "text": "I agree with Thomas Jefferson quote,\"Determine never to be idle...It is wonderful how much may be done if we are always doing.\" because yes we may always be doing something but we never really put in mind what we really are going to do.\n\nOne way to be able to accomplish things is if you have a goal set. If you set a goal that means you are going to want to achieve it. Prove others that you can do it and that nothing can stop you from doing it. Always give it your best, never think negative because if you think negative then you're never going to accomplish anything in life. Prove to yourself that you can also try new things and that can help you a lot.\n\nAlways be confident in yourself no matter what. Always put in mind that you can do whatever you want to do. For example, if you have to mow the lawn but you're in your bedroom laying down looking out the window, the lawn isn't going to mow itself because it needs someone to move it around. Trying new things doesnt hurt at least trying for quite some time and it also benefits you because you're doing something for your own good.\n\nNever use laziness as an excuse to not do anything. If you always say i'm tired then you're never going to do anything, you're just giving up on yourself.\n\nFor example, if you hate being home all day doing nothing, then go out go find what you can do because if you try new things you'll end up liking it. If you're an active person you'll accomplish way more than expected because you're going to be moving around and getting out you're comfort zone. Helping others also can be a way in accomplishing more than just sitting there because you're talking to someone or showing someone how to do something. Helping the community in many different ways can also be a good thing but not just for you but the community, because you're going out and helping. Doing and trying new things motivates you to keep doing more.\n\nI strongly do believe that if you're doing something that you put your mind to, then you're always going to accomplish more than expected. If you sit down and say you're going to do something you'll never do it because you're just sitting down. Your words are way different than your actions. To be able to do something you have to get up from the couch and do it without having to think so hard about it.",
+      "human": {
+        "cohesion": 3.5,
+        "syntax": 3,
+        "vocabulary": 3.5,
+        "phraseology": 4,
+        "grammar": 4,
+        "conventions": 3.5
+      },
+      "raters": [
+        {
+          "cohesion": 3,
+          "syntax": 3,
+          "vocabulary": 4,
+          "phraseology": 4,
+          "grammar": 4,
+          "conventions": 4
+        },
+        {
+          "cohesion": 4,
+          "syntax": 3,
+          "vocabulary": 3,
+          "phraseology": 4,
+          "grammar": 4,
+          "conventions": 3
+        }
+      ]
+    },
+    {
+      "id": "D86C20117DC9",
+      "task": "Working with a group or alone",
+      "text": "Students should work in groups or should works alone. Working alone students can be more focused during class; however, work in group is better. Work in group is more beneficial for students because students can share they ideas, they can be better in class and they can learn from each others.\n\nIt's more beneficial for students work in groups because they can share they ideas. For example, if the students are doing a important project or a simple homework they all can says theirs opinions. Also, they can research together to support they ideas and make a better work. Last, working in groups students can support the ideas from each others. It's more beneficial for students work in groups because they can share they ideas and make a wonderful group project.\n\nIs better to to work in groups because students can be better in class. First, they can talk and find out what they don't understand and ask to the teacher together. Also, teachers can safe time because if they ask questions in group them the teacher can explain just one time and not explain one by one. Last, working in groups students can learn from the mistake of the other students and make less mistake. It's better to students to work in groups because they can be better in class and be more proper.\n\nIf students works in groups they can learn from the people in the group. First, if a students need support or not understand the class material other people from the group can support them. Also, they can help each other to make a better group and everyone can understand the class material. Another example, is that students can research together to find better information. Is more beneficial for students work in groups because they can learn from each others and learn from the others people from the groups.\n\nStudents should work in groups because students can share they ideas, they can be better in class and they can learn from each others. If students share they ideas them the other in the group can learn from them. Also, if students work in groups they can be better in class and they can pass the school year. Last, working in groups students can learn from others and be better to the future. In conclusion, is more beneficial for students work in groups.",
+      "human": {
+        "cohesion": 4,
+        "syntax": 4,
+        "vocabulary": 3.5,
+        "phraseology": 3.5,
+        "grammar": 3.5,
+        "conventions": 3
+      },
+      "raters": [
+        {
+          "cohesion": 4,
+          "syntax": 4,
+          "vocabulary": 3,
+          "phraseology": 4,
+          "grammar": 4,
+          "conventions": 3
+        },
+        {
+          "cohesion": 4,
+          "syntax": 4,
+          "vocabulary": 4,
+          "phraseology": 3,
+          "grammar": 3,
+          "conventions": 3
+        }
+      ]
+    }
+  ]
+}

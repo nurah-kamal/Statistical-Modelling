@@ -1,6 +1,6 @@
 # Statistical Modelling
 
-Eight projects in Python with scikit-learn: five models I built while learning predictive modelling, two that test and forecast on synthetic South African service-desk data, and an inflation forecast on official Stats SA data. Each one sits in its own folder with its data, its script and a README that says what it does and what it found. Every model is compared with a simple baseline, so its score has something to be judged against.
+Nine projects. Eight are in Python with scikit-learn: five models I built while learning predictive modelling, two that test and forecast on synthetic South African service-desk data, and an inflation forecast on official Stats SA data. The ninth, in Node, measures how well a language model's rubric scores agree with trained human raters. Each one sits in its own folder with its data, its script and a README that says what it does and what it found. Every model is compared with a simple baseline, so its score has something to be judged against.
 
 | Project | Question | Method and result |
 | --- | --- | --- |
@@ -12,8 +12,9 @@ Eight projects in Python with scikit-learn: five models I built while learning p
 | [Did the second sign-off slow refunds?](refund-sign-off-test/) | Did a new approval step make refunds slower, and is a bump in late complaints real? | Permutation tests and bootstrap intervals: refunds +37 points late and +2.0 working days; the complaints bump passes a significance test but is a fluke, and the next quarter shows it |
 | [Request Volume Forecast](request-volume-forecast/) | How many requests will a service desk get each day? | Poisson regression on weekday, month and SA public holidays, with a time-based split: 1.80 requests a day off, against 2.67 for "same as last week" |
 | [CPI Inflation Forecast](cpi-inflation-forecast/) | Can a simple model forecast South African inflation better than "it stays where it is"? | Ridge regression on recent changes, backtested every month from 2010 on Stats SA's official rates: no significant gain over "no change" at 1, 3, 6 or 12 months |
+| [rubric-eval](rubric-eval/) | Does Gemini score learner essays the way trained raters do? | One call per rubric item on 30 ELLIPSE essays: it ranks them almost as consistently as two raters agree with each other (correlation 0.51–0.52 with each rater, against 0.59 between them), but scores 2 points lower on a 10-point scale |
 
-The first five use public teaching datasets, the next two use invented data from [SA Turnaround](https://github.com/nurah-kamal/reporting/tree/main/sa-turnaround), and the CPI forecast uses Statistics South Africa's CPI History, with the source and terms in its README. All the data is included in the folders.
+The first five use public teaching datasets, the next two use invented data from [SA Turnaround](https://github.com/nurah-kamal/reporting/tree/main/sa-turnaround), the CPI forecast uses Statistics South Africa's CPI History, with the source and terms in its README, and rubric-eval uses 30 essays from the ELLIPSE corpus (CC BY-NC-SA 4.0). All the data is included in the folders.
 
 ## What these are, and what they are not
 
@@ -28,6 +29,8 @@ pip install -r requirements.txt
 ```
 
 Then run the script from inside that project's folder, because each script reads its data with a path relative to the folder. The figures in each README come from a run with these versions.
+
+rubric-eval is Node 22.13 or later instead: `cd rubric-eval`, `npm ci`, `npm test`. Its README says how to replay the published run without a key.
 
 ## Licence
 
