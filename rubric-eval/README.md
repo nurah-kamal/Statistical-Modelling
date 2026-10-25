@@ -46,7 +46,7 @@ The model's reasons are specific and mostly accurate: it quotes real misspelling
 - **Compare the model with each rater, not just with the average.** Two trained people agree exactly only 54% of the time on this sample, and 52% across the 3,897 corpus essays that have both ratings. A model that matched a rater 54% of the time would be doing as well as a second rater, not scoring "54% accurate". Without that bar, every number here is uninterpretable.
 - **Report ranking and calibration separately.** Correlation ignores a constant offset; kappa and exact match punish it. Here they tell different stories (0.60 against 0.30), and the difference is the finding.
 - **One call per rubric item, with one sentence of evidence.** The reasons are what showed the spelling leak. A single call returning six numbers would have hidden it.
-- **Every run is replayable.** Each reply is saved under a hash of its prompt, without the prompt itself. `--client recorded` rebuilds every figure in this README with no key and no network, and CI checks that the committed results still come out of the committed recording. Change the rubric or the prompt wording and the replay refuses, rather than quietly scoring something else.
+- **Every run is replayable.** Each reply is saved under a SHA-256 hash of its prompt, without the prompt itself. `--client recorded` rebuilds every figure in this README with no key and no network, and CI checks that the committed results still come out of the committed recording. Change the rubric or the prompt wording and the replay refuses, rather than quietly scoring something else.
 - **A crude baseline is in the table.** The word-counting scorer beats the model on exact match. Showing that keeps the headline honest.
 
 ## How it is built

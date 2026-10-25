@@ -1,7 +1,7 @@
 import { createHash } from 'node:crypto';
 import { appendFileSync, existsSync, readFileSync } from 'node:fs';
 
-const keyFor = (prompt) => createHash('sha256').update(prompt).digest('hex');
+const hashOf = (prompt) => createHash('sha256').update(prompt).digest('hex');
 
 // Saves each reply under a hash of its prompt, so a run can be replayed later
 // without a key. The prompt itself is not stored. With resume, a reply already
@@ -13,14 +13,14 @@ export function recording(client, path, { resume = false } = {}) {
     name: client.name,
     model: client.model,
     async complete(req) {
-      const key = keyFor(req.prompt);
-      if (saved.has(key) && !used.has(key)) {
-        used.add(key);
-        return { text: saved.get(key).text, model: saved.get(key).model };
+      const hash = hashOf(req.prompt);
+      if (saved.has(hash) && !used.has(hash)) {
+        used.add(hash);
+        return { text: saved.get(hash).text, model: saved.get(hash).model };
       }
-      used.add(key);
+      used.add(hash);
       const reply = await client.complete(req);
-      appendFileSync(path, JSON.stringify({ key, model: reply.model, text: reply.text }) + '\n');
+      appendFileSync(path, JSON.stringify({ hash, model: reply.model, text: reply.text }) + '\n');
       return reply;
     },
   };
@@ -31,7 +31,7 @@ function readReplies(path) {
   for (const line of readFileSync(path, 'utf8').split('\n')) {
     if (!line.trim()) continue;
     const r = JSON.parse(line);
-    replies.set(r.key, r);
+    replies.set(r.hash, r);
   }
   return replies;
 }
@@ -44,7 +44,7 @@ export function recordedClient(path) {
     name: 'recorded',
     model,
     async complete({ prompt }) {
-      const r = replies.get(keyFor(prompt));
+      const r = replies.get(hashOf(prompt));
       if (!r) throw new Error('no recorded reply for this prompt (the rubric, essay or prompt wording changed since recording)');
       return { text: r.text, model: r.model };
     },
