@@ -1,0 +1,30 @@
+
+Refunds, opened before vs from 1 July 2025
+  late: before 18.7% late (95% CI 15.8 to 21.7, n=678), after 55.9% late (95% CI 46.8 to 64.9, n=111)
+    difference +37.1 (95% CI +27.1 to +47.0), permutation p = 0.0001
+  working_days: before 4.1 working days (95% CI 4.0 to 4.2, n=678), after 6.1 working days (95% CI 5.7 to 6.5, n=111)
+    difference +2.0 (95% CI +1.6 to +2.4), permutation p = 0.0001
+
+Other categories across 1 July 2025 (late rate only)
+  Account change: 19.7% -> 17.6% (-2.1 points), p = 0.4500
+  Billing query: 16.8% -> 14.3% (-2.4 points), p = 0.3987
+  Document request: 16.9% -> 15.4% (-1.5 points), p = 0.6658
+  Complaint: 17.4% -> 25.3% (+8.0 points), p = 0.1096
+
+Complaints, other quarters vs 2025 Q2-Q3
+  late: other quarters 16.3% late (95% CI 13.0 to 19.6, n=484), 2025 Q2-Q3 32.0% late (95% CI 21.3 to 42.7, n=75)
+    difference +15.7 (95% CI +5.0 to +27.1), permutation p = 0.0022
+  working_days: other quarters 3.8 working days (95% CI 3.6 to 4.0, n=484), 2025 Q2-Q3 4.4 working days (95% CI 3.9 to 4.9, n=75)
+    difference +0.6 (95% CI +0.0 to +1.1), permutation p = 0.0349
+
+Biggest two-quarter bump in each category except refunds: Complaint +15.7, Document request +6.8, Account change +5.1, Billing query +4.4
+Scan test, complaints only (any two neighbouring quarters): p = 0.007
+Scan test, any of the four non-refund categories: p = 0.007
+
+Does it last? 2025 Q4 against all quarters before 2025 Q2
+  Refund: 19.0% -> 57.1% (+38.1 points, n=49), p = 0.0001
+  Complaint: 16.3% -> 16.2% (-0.1 points, n=37), p = 1.0000
+
+True complaint late rate in the generator: 17.4% in every quarter
+
+Chart saved to sign_off_test.png
