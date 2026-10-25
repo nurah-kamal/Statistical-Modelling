@@ -60,7 +60,7 @@ The model's reasons are specific and mostly accurate: it quotes real misspelling
 | **Agreement** | `src/agreement.js`: exact match, within one point, mean gap, bias, Pearson correlation and quadratic weighted kappa. `src/report.js` adds the per-rater comparison, the score spread, the shifted view and the spelling count. |
 | **Data** | 30 essays from the ELLIPSE corpus, six from each of five score bands, drawn with a fixed seed by `scripts/make-sample.js`. [data/README.md](data/README.md) covers the source, the licence and what was removed. |
 | **Tests** | 36 tests with Node's built-in runner: rubric validation, prompt building, reply checking, the agreement maths against hand-worked cases, the Gemini client against a fake server (retries, timeouts, quota, the key never in the URL or an error), recording and replay, resuming, and the sample itself. |
-| **CI** | `.github/workflows/rubric-eval.yml` in the repository root runs the tests, a dependency audit, both replays with a check that the committed results haven't drifted, and a secret scan over the whole history. Actions are pinned to exact commits. |
+| **CI** | `.github/workflows/rubric-eval.yml` in the repository root runs the tests, a dependency audit, and both replays with a check that the committed results haven't drifted. `secrets.yml` scans the whole repository's history on every push. Actions are pinned to exact commits. |
 
 ## Try it on your own machine
 
