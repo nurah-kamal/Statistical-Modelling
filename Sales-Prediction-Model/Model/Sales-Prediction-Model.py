@@ -38,4 +38,4 @@ with open("model_evaluation.txt", "w") as f:
     f.write(f"Root Mean Squared Error (RMSE): {rmse}\n")
     f.write(f"R-squared (R2): {r2}\n")
 
-print("Model training and evaluation complete. Results saved to sales_model_prediction.txt.")
+print("Model training and evaluation complete. Results saved to model_evaluation.txt.")

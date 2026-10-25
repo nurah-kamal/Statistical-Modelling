@@ -1,43 +1,30 @@
-# Statistical Modelling Repository
+# Statistical Modelling
 
-Welcome to my **Statistical Modelling** repository! This is a collection of projects and analyses where I apply various statistical techniques to solve real-world problems and showcase the power of data. Each project here involves different aspects of statistical methods, including data exploration, hypothesis testing, regression analysis, and predictive modelling.
+Four models I built while learning predictive modelling in Python with scikit-learn. Each one sits in its own folder with its data, its script and a README that says what it does and what it found.
 
----
+| Project | Question | Method |
+| --- | --- | --- |
+| [Housing Prices Prediction Model](Housing%20Prices%20Prediction%20Model/) | What will a house in Ames, Iowa sell for? | Ridge regression on every feature, with the price log-transformed |
+| [Movie Rating Prediction Model](Movie%20Rating%20Prediction%20Model/) | Can genre, director, cast, length and votes predict an IMDb rating? | Random forest regression |
+| [Sales Prediction Model](Sales-Prediction-Model/) | How much do TV, radio and newspaper advertising each add to sales? | Linear regression |
+| [Iris Flower Classification Model](Iris-Flower-Classification-Model/) | Which species is a flower, from four measurements? | Decision tree |
 
-## 📊 Projects in This Repository
+All four use public datasets that are included in the folders.
 
-### 1. **Iris Flower Classification**
-- **Description**: A machine learning project where I classify iris flower species based on petal and sepal measurements using various statistical techniques.
-- **Key Concepts**: Classification, Supervised Learning, k-NN, Logistic Regression, Accuracy Metrics.
+## What these are, and what they are not
 
+These are study projects on well-known teaching datasets, so they show that I can build, split, fit and evaluate a model properly. They are not original analysis. For original analysis, see [SA Turnaround](https://github.com/nurah-kamal/sa-turnaround).
 
-### 2. **Customer Segmentation Model**
-- **Description**: A clustering project that segments customers based on purchasing behavior to target them with personalized marketing strategies.
-- **Key Concepts**: K-Means Clustering, Exploratory Data Analysis, Feature Engineering.
+## Run one
 
----
+Python 3 with pandas, numpy, scikit-learn and matplotlib:
 
-## 📈 How to Use This Repository
-- Clone the repository to your local machine.
-- Each project is contained in its own directory, along with any datasets, Jupyter Notebooks, and Python scripts used in the analysis.
-- Detailed explanations of each statistical method used are included in the project files.
+```bash
+pip install pandas numpy scikit-learn matplotlib joblib
+```
 
----
+Then run the script from inside that project's folder, because each script reads its data with a path relative to the folder.
 
-## 🔧 Technologies Used
-- **Python**: Main programming language used for data analysis and modelling.
-- **Libraries**: Pandas, NumPy, SciPy, Scikit-learn, Matplotlib, Seaborn.
+## Licence
 
----
-
-## 🚀 Contributing
-Feel free to fork the repository and contribute! If you find any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
-
----
-
-## 📫 Contact
-For any questions or collaboration opportunities, reach out via email at [kmlnur001@myuct.ac.za](mailto:kmlnur001@myuct.ac.za).
-
----
-
-Thank you for visiting my repository, and happy coding!
+MIT.
