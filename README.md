@@ -4,14 +4,14 @@ Eight projects in Python with scikit-learn: five models I built while learning p
 
 | Project | Question | Method and result |
 | --- | --- | --- |
-| [Housing Prices Prediction Model](Housing%20Prices%20Prediction%20Model/) | What will a house in Ames, Iowa sell for? | Ridge regression on log price: RMSE 0.136 in cross-validation (a typical error of about 14%), against 0.407 for guessing the average |
-| [Movie Rating Prediction Model](Movie%20Rating%20Prediction%20Model/) | Can genre, director, cast, length and votes predict an IMDb rating? | Random forest regression: off by 0.93 rating points on average, against 1.12 for guessing the average |
-| [Sales Prediction Model](Sales-Prediction-Model/) | How much do TV, radio and newspaper advertising each add to sales? | Linear regression: cross-validated R² of 0.89 |
-| [Titanic Survival Prediction Model](Titanic-Survival-Prediction-Model/) | Who survived the Titanic, from class, sex, age, family aboard, fare and port? | Random forest classifier: 82% accuracy in cross-validation, against 62% for predicting that nobody survived |
-| [Iris Flower Classification Model](Iris-Flower-Classification-Model/) | Which species is a flower, from four measurements? | Decision tree: 95% accuracy in cross-validation |
-| [Did the second sign-off slow refunds?](Refund-Sign-Off-Test/) | Did a new approval step make refunds slower, and is a bump in late complaints real? | Permutation tests and bootstrap intervals: refunds +37 points late and +2.0 working days; the complaints bump passes a significance test but is a fluke, and the next quarter shows it |
-| [Request Volume Forecast](Request-Volume-Forecast/) | How many requests will a service desk get each day? | Poisson regression on weekday, month and SA public holidays, with a time-based split: 1.80 requests a day off, against 2.67 for "same as last week" |
-| [CPI Inflation Forecast](CPI-Inflation-Forecast/) | Can a simple model forecast South African inflation better than "it stays where it is"? | Ridge regression on recent changes, backtested every month from 2010 on Stats SA's official rates: no significant gain over "no change" at 1, 3, 6 or 12 months |
+| [Housing Prices Prediction Model](housing-prices/) | What will a house in Ames, Iowa sell for? | Ridge regression on log price: RMSE 0.136 in cross-validation (a typical error of about 14%), against 0.407 for guessing the average |
+| [Movie Rating Prediction Model](movie-ratings/) | Can genre, director, cast, length and votes predict an IMDb rating? | Random forest regression: off by 0.93 rating points on average, against 1.12 for guessing the average |
+| [Sales Prediction Model](advertising-sales/) | How much do TV, radio and newspaper advertising each add to sales? | Linear regression: cross-validated R² of 0.89 |
+| [Titanic Survival Prediction Model](titanic-survival/) | Who survived the Titanic, from class, sex, age, family aboard, fare and port? | Random forest classifier: 82% accuracy in cross-validation, against 62% for predicting that nobody survived |
+| [Iris Flower Classification Model](iris-classification/) | Which species is a flower, from four measurements? | Decision tree: 95% accuracy in cross-validation |
+| [Did the second sign-off slow refunds?](refund-sign-off-test/) | Did a new approval step make refunds slower, and is a bump in late complaints real? | Permutation tests and bootstrap intervals: refunds +37 points late and +2.0 working days; the complaints bump passes a significance test but is a fluke, and the next quarter shows it |
+| [Request Volume Forecast](request-volume-forecast/) | How many requests will a service desk get each day? | Poisson regression on weekday, month and SA public holidays, with a time-based split: 1.80 requests a day off, against 2.67 for "same as last week" |
+| [CPI Inflation Forecast](cpi-inflation-forecast/) | Can a simple model forecast South African inflation better than "it stays where it is"? | Ridge regression on recent changes, backtested every month from 2010 on Stats SA's official rates: no significant gain over "no change" at 1, 3, 6 or 12 months |
 
 The first five use public teaching datasets, the next two use invented data from [SA Turnaround](https://github.com/nurah-kamal/reporting-and-bi/tree/main/sa-turnaround), and the CPI forecast uses Statistics South Africa's CPI History, with the source and terms in its README. All the data is included in the folders.
 
