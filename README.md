@@ -1,6 +1,6 @@
 # Statistical Modelling
 
-Seven projects in Python with scikit-learn: five models I built while learning predictive modelling, and two that test and forecast on synthetic South African service-desk data. Each one sits in its own folder with its data, its script and a README that says what it does and what it found. Every model is compared with a simple baseline, so its score has something to be judged against.
+Eight projects in Python with scikit-learn: five models I built while learning predictive modelling, two that test and forecast on synthetic South African service-desk data, and an inflation forecast on official Stats SA data. Each one sits in its own folder with its data, its script and a README that says what it does and what it found. Every model is compared with a simple baseline, so its score has something to be judged against.
 
 | Project | Question | Method and result |
 | --- | --- | --- |
@@ -11,12 +11,13 @@ Seven projects in Python with scikit-learn: five models I built while learning p
 | [Iris Flower Classification Model](Iris-Flower-Classification-Model/) | Which species is a flower, from four measurements? | Decision tree: 95% accuracy in cross-validation |
 | [Did the second sign-off slow refunds?](Refund-Sign-Off-Test/) | Did a new approval step make refunds slower, and is a bump in late complaints real? | Permutation tests and bootstrap intervals: refunds +37 points late and +2.0 working days; the complaints bump passes a significance test but is a fluke, and the next quarter shows it |
 | [Request Volume Forecast](Request-Volume-Forecast/) | How many requests will a service desk get each day? | Poisson regression on weekday, month and SA public holidays, with a time-based split: 1.80 requests a day off, against 2.67 for "same as last week" |
+| [CPI Inflation Forecast](CPI-Inflation-Forecast/) | Can a simple model forecast South African inflation better than "it stays where it is"? | Ridge regression on recent changes, backtested every month from 2010 on Stats SA's official rates: no significant gain over "no change" at 1, 3, 6 or 12 months |
 
-The first five use public teaching datasets, and the last two use invented data from [SA Turnaround](https://github.com/nurah-kamal/reporting-and-bi/tree/main/sa-turnaround). All the data is included in the folders.
+The first five use public teaching datasets, the next two use invented data from [SA Turnaround](https://github.com/nurah-kamal/reporting-and-bi/tree/main/sa-turnaround), and the CPI forecast uses Statistics South Africa's CPI History, with the source and terms in its README. All the data is included in the folders.
 
 ## What these are, and what they are not
 
-The first five are study projects on well-known teaching datasets, so they show that I can build, split, fit and evaluate a model properly. They are not original analysis. The last two use synthetic data where the answer was planted in advance, so they show whether a method finds what is really there and nothing else. For the original analysis that data came from, see [SA Turnaround](https://github.com/nurah-kamal/reporting-and-bi/tree/main/sa-turnaround).
+The first five are study projects on well-known teaching datasets, so they show that I can build, split, fit and evaluate a model properly. They are not original analysis. The two on synthetic data have an answer planted in advance, so they show whether a method finds what is really there and nothing else. The CPI forecast is on real data, and its honest answer is that a model did not beat the simplest guess. For the original analysis that data came from, see [SA Turnaround](https://github.com/nurah-kamal/reporting-and-bi/tree/main/sa-turnaround).
 
 ## Run one
 
