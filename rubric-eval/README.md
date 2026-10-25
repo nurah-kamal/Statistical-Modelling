@@ -1,5 +1,7 @@
 # rubric-eval
 
+[![rubric-eval](https://github.com/nurah-kamal/statistical-modelling/actions/workflows/rubric-eval.yml/badge.svg?branch=main&event=push)](https://github.com/nurah-kamal/statistical-modelling/actions/workflows/rubric-eval.yml) 36 tests
+
 **Scores writing against a rubric with Gemini, one call per rubric item, then measures how far those scores agree with trained human raters. On 30 learner essays, the model ranked the essays almost as consistently as two raters ranked them against each other, but it scored nearly every essay a full level too low.**
 
 ```
