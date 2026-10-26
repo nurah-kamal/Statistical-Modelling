@@ -143,12 +143,14 @@ export default function App() {
         <article className="sheet" aria-label="Rubric sheet">
           <header className="sheet-head">
             <Field label="Rubric name" field="name" problem={byField.get('name')}>
-              <input
+              {/* Wraps like the other fields, so a long name stays readable; a name has no line breaks. */}
+              <AutoText
                 id={fieldId('name')}
                 className="write title"
                 value={form.name}
                 placeholder="What is being scored"
-                onChange={(e) => edit((f) => ({ ...f, name: e.target.value }))}
+                onKeyDown={(e) => e.key === 'Enter' && e.preventDefault()}
+                onChange={(value) => edit((f) => ({ ...f, name: value.replace(/\s*\n\s*/g, ' ') }))}
               />
             </Field>
             <Field label="Context for whoever scores (optional)" field="context">
