@@ -1,6 +1,6 @@
 # Statistical Modelling
 
-Nine projects. Eight are in Python with scikit-learn: five models I built while learning predictive modelling, two that test and forecast on synthetic South African service-desk data, and an inflation forecast on official Stats SA data. The ninth, in Node, measures how well a language model's rubric scores agree with trained human raters. Each one sits in its own folder with its data, its script and a README that says what it does and what it found. Every model is compared with a simple baseline, so its score has something to be judged against.
+Ten projects. Eight are in Python with scikit-learn: five models I built while learning predictive modelling, two that test and forecast on synthetic South African service-desk data, and an inflation forecast on official Stats SA data. The ninth, in Node, measures how well a language model's rubric scores agree with trained human raters, and the tenth, in React, is a page for writing the rubrics it scores with. Each one sits in its own folder with its data, its script and a README that says what it does and what it found. Every model is compared with a simple baseline, so its score has something to be judged against.
 
 | Project | Question | Method and result |
 | --- | --- | --- |
@@ -13,6 +13,7 @@ Nine projects. Eight are in Python with scikit-learn: five models I built while 
 | [Request Volume Forecast](request-volume-forecast/) | How many requests will a service desk get each day? | Poisson regression on weekday, month and SA public holidays, with a time-based split: 1.80 requests a day off, against 2.67 for "same as last week" |
 | [CPI Inflation Forecast](cpi-inflation-forecast/) | Can a simple model forecast South African inflation better than "it stays where it is"? | Ridge regression on recent changes, backtested every month from 2010 on Stats SA's official rates: no significant gain over "no change" at 1, 3, 6 or 12 months |
 | [rubric-eval](rubric-eval/)<br>[![rubric-eval](https://github.com/nurah-kamal/statistical-modelling/actions/workflows/rubric-eval.yml/badge.svg?branch=main&event=push)](https://github.com/nurah-kamal/statistical-modelling/actions/workflows/rubric-eval.yml) 36 tests | Does Gemini score learner essays the way trained raters do? | One call per rubric item on 30 ELLIPSE essays: it ranks them almost as consistently as two raters agree with each other (correlation 0.51–0.52 with each rater, against 0.59 between them), but scores 2 points lower on a 10-point scale |
+| [rubric-builder](rubric-builder/)<br>[![rubric-builder](https://github.com/nurah-kamal/statistical-modelling/actions/workflows/rubric-builder.yml/badge.svg?branch=main&event=push)](https://github.com/nurah-kamal/statistical-modelling/actions/workflows/rubric-builder.yml) 14 tests | Can a marker write a rubric that rubric-eval will read, without touching YAML? | A one-screen React tool that checks the rubric as it is written and exports rubric-eval's exact format; a test round-trips the real ELLIPSE rubric byte for byte. [Live](https://nurah-kamal.github.io/statistical-modelling/rubric-builder/) |
 
 The first five use public teaching datasets, the next two use invented data from [SA Turnaround](https://github.com/nurah-kamal/reporting/tree/main/sa-turnaround), the CPI forecast uses Statistics South Africa's CPI History, with the source and terms in its README, and rubric-eval uses 30 essays from the ELLIPSE corpus (CC BY-NC-SA 4.0). All the data is included in the folders.
 
@@ -32,7 +33,7 @@ pip install -r requirements.txt
 
 Then run the script from inside that project's folder, because each script reads its data with a path relative to the folder. The figures in each README come from a run with these versions.
 
-rubric-eval is Node 22.13 or later instead: `cd rubric-eval`, `npm ci`, `npm test`. Its README says how to replay the published run without a key.
+rubric-eval is Node 22.13 or later instead: `cd rubric-eval`, `npm ci`, `npm test`. Its README says how to replay the published run without a key. rubric-builder is Node too, and its README says how to run it.
 
 ## Licence
 

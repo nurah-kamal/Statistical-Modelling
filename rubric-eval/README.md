@@ -82,7 +82,7 @@ To score with Gemini yourself, get a free key from Google AI Studio and put it i
 npm run eval -- --client gemini --model gemini-3.5-flash-lite --record --label mine
 ```
 
-Use `--limit 2` to try two essays first. To score something else, write a rubric in the same shape and point `--rubric` and `--data` at your own files.
+Use `--limit 2` to try two essays first. To score something else, write a rubric in the same shape and point `--rubric` and `--data` at your own files. [rubric-builder](../rubric-builder/) ([live](https://nurah-kamal.github.io/statistical-modelling/rubric-builder/)) writes one on a single screen, checks it, and exports a JSON file `--rubric` reads as it is.
 
 ## Things worth knowing
 

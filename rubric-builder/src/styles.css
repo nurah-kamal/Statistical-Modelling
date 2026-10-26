@@ -1,0 +1,755 @@
+:root {
+  --desk: #e3e6e2;
+  --paper: #fdfdfa;
+  --ink: #16181b;
+  --ink-soft: #454b51;
+  --dropout: #1f6e5c;
+  --dropout-line: #a9cfc3;
+  --field-rule: #5f9a8a;
+  --dropout-wash: #e6f2ee;
+  --problem: #b42318;
+  --problem-wash: #fcebe8;
+  --moved: #fbf1c7;
+  --sans: 'Archivo Variable', 'Archivo', system-ui, sans-serif;
+  --mono: ui-monospace, 'Cascadia Mono', 'Menlo', monospace;
+  --gutter: clamp(16px, 4vw, 40px);
+  --margin: clamp(28px, 5vw, 56px);
+
+  color-scheme: light;
+  font-family: var(--sans);
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--ink);
+  background: var(--desk);
+  -webkit-text-size-adjust: 100%;
+  accent-color: var(--dropout);
+  scrollbar-color: var(--dropout-line) transparent;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--desk);
+  caret-color: var(--ink);
+}
+
+::selection {
+  background: var(--dropout-wash);
+  color: var(--ink);
+}
+
+:focus-visible {
+  outline: 2px solid var(--dropout);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+a {
+  color: var(--dropout);
+  text-underline-offset: 0.2em;
+  text-decoration-thickness: 1px;
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: default;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+/* The desk and the sheet of paper on it */
+
+.desk {
+  padding: clamp(0px, 2vw, 24px) clamp(0px, 3vw, 40px) 160px;
+}
+
+.sheet {
+  position: relative;
+  max-width: 880px;
+  margin: 0 auto;
+  background: var(--paper);
+  padding: var(--gutter) var(--gutter) var(--gutter) calc(var(--margin) + var(--gutter));
+  box-shadow: 0 1px 2px rgb(22 24 27 / 0.08), 0 12px 32px -12px rgb(22 24 27 / 0.18);
+}
+
+/* Registration marks: the solid squares a scanner finds the corners by. */
+.sheet::before,
+.sheet::after {
+  content: '';
+  position: absolute;
+  top: 14px;
+  width: 12px;
+  height: 12px;
+  background: var(--ink);
+}
+.sheet::before {
+  left: 14px;
+}
+.sheet::after {
+  right: 14px;
+}
+
+/* Printed parts of the sheet are in dropout ink; what you write is in black. */
+.printed {
+  font-stretch: 75%;
+  font-weight: 650;
+  font-size: 0.78rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--dropout);
+  margin: 0;
+}
+
+.section-title {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  font-size: 0.95rem;
+  padding: 0 0 8px;
+  border-bottom: 1px solid var(--dropout-line);
+  margin: 22px 0 10px;
+}
+.section-title .count {
+  font-variant-numeric: tabular-nums;
+  color: var(--ink-soft);
+}
+
+/* Fields: a printed label over a ruled line to write on */
+
+.field {
+  display: grid;
+  gap: 2px;
+  margin-bottom: 12px;
+}
+
+.write {
+  display: block;
+  width: 100%;
+  border: 0;
+  border-bottom: 1px solid var(--field-rule);
+  border-radius: 0;
+  background: transparent;
+  padding: 6px 0 7px;
+  resize: none;
+  overflow: hidden;
+  line-height: 1.45;
+  transition: border-color 160ms ease-out, background-color 160ms ease-out;
+}
+.write::placeholder {
+  color: #6b7277;
+}
+.write:hover {
+  border-bottom-color: var(--dropout);
+}
+.write:focus {
+  outline: none;
+  border-bottom-color: var(--ink);
+  box-shadow: 0 1px 0 0 var(--ink);
+}
+.write:focus-visible {
+  outline: none;
+}
+
+.sheet-head {
+  padding-top: 4px;
+}
+
+.write.title {
+  font-size: clamp(1.5rem, 3.5vw, 2.1rem);
+  font-weight: 650;
+  font-stretch: 90%;
+  letter-spacing: -0.015em;
+  line-height: 1.2;
+}
+
+.write.mono,
+.mono {
+  font-family: var(--mono);
+  font-size: 0.9rem;
+}
+
+.write.number {
+  width: 4.5ch;
+  font-variant-numeric: tabular-nums;
+  font-size: 1.15rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.field[data-invalid] .write,
+.write[aria-invalid='true']:not(.guidance-text) {
+  border-bottom-color: var(--problem);
+}
+
+.problem-text {
+  margin: 4px 0 0;
+  color: var(--problem);
+  font-size: 0.86rem;
+}
+
+/* Buttons */
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: 0 18px;
+  border-radius: 6px;
+  font-weight: 600;
+  font-stretch: 90%;
+  border: 1.5px solid var(--ink);
+  cursor: pointer;
+  transition: background-color 140ms ease-out, color 140ms ease-out, transform 140ms ease-out;
+  white-space: nowrap;
+}
+.button:active {
+  transform: translateY(1px);
+}
+.button.primary {
+  background: var(--ink);
+  color: var(--paper);
+}
+.button.primary:hover {
+  background: #2c3035;
+}
+.button.secondary {
+  background: transparent;
+}
+.button.secondary:hover {
+  background: var(--dropout-wash);
+}
+.button.secondary:focus-within {
+  outline: 2px solid var(--dropout);
+  outline-offset: 3px;
+}
+
+.quiet {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 36px;
+  padding: 0 10px;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  background: transparent;
+  color: var(--dropout);
+  font-weight: 600;
+  font-stretch: 90%;
+  font-size: 0.9rem;
+  transition: background-color 140ms ease-out, color 140ms ease-out;
+}
+.quiet:hover:not(:disabled) {
+  background: var(--dropout-wash);
+}
+.quiet:disabled {
+  color: #9aa3a0;
+}
+.quiet.danger {
+  color: var(--ink-soft);
+}
+.quiet.danger:hover {
+  color: var(--problem);
+  background: var(--problem-wash);
+}
+
+.link {
+  border: 0;
+  padding: 0;
+  background: none;
+  color: var(--dropout);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.2em;
+  text-align: left;
+}
+.link:hover {
+  color: var(--ink);
+}
+
+/* The scale box */
+
+.scale-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 8px 32px;
+}
+.scale-row .field {
+  margin-bottom: 0;
+}
+.split-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.unit {
+  color: var(--ink-soft);
+}
+
+/* Bands on a track: a column per score, each band an oval spanning its scores,
+   with a dashed mark under any score no band covers. */
+.bands {
+  margin-top: 14px;
+}
+.bands:focus {
+  outline: none;
+}
+.bands h3 {
+  margin: 0 0 6px;
+}
+.track-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 10px 14px;
+}
+.track-row .track {
+  flex: 1 1 320px;
+}
+.track {
+  display: grid;
+  grid-template-columns: repeat(var(--scores), minmax(0, 1fr));
+  grid-auto-rows: auto;
+  gap: 4px 3px;
+  max-width: 600px;
+}
+.score {
+  grid-row: 1;
+  text-align: center;
+  font-size: 0.78rem;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  color: var(--dropout);
+  border-bottom: 1px solid var(--dropout-line);
+  padding-bottom: 2px;
+}
+.score[data-state='gap'],
+.score[data-state='overlap'] {
+  color: var(--problem);
+  border-bottom-color: var(--problem);
+}
+.gap-mark {
+  height: 38px;
+  border: 1.5px dashed var(--problem);
+  border-radius: 50%;
+}
+
+.band-oval {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 0;
+  height: 38px;
+  border: 1.5px solid var(--dropout);
+  border-radius: 50%;
+  background: var(--paper);
+}
+.band-oval[data-invalid] {
+  border-color: var(--problem);
+  background: var(--problem-wash);
+}
+.band-oval:focus-within {
+  outline: 2px solid var(--dropout);
+  outline-offset: 2px;
+}
+.band-input {
+  width: 100%;
+  min-width: 2ch;
+  border: 0;
+  background: transparent;
+  padding: 0 4px;
+  font-weight: 650;
+  font-variant-numeric: tabular-nums;
+  text-align: center;
+}
+.band-input:focus {
+  outline: none;
+}
+.band-remove {
+  position: absolute;
+  top: -9px;
+  right: -4px;
+  display: grid;
+  place-items: center;
+  width: 22px;
+  height: 22px;
+  padding: 0;
+  border: 1px solid var(--dropout);
+  border-radius: 50%;
+  background: var(--paper);
+  color: var(--dropout);
+  opacity: 0;
+  transition: opacity 140ms ease-out;
+}
+.band-oval:hover .band-remove,
+.band-oval:focus-within .band-remove {
+  opacity: 1;
+}
+.band-remove:hover {
+  color: var(--problem);
+  border-color: var(--problem);
+}
+@media (hover: none) {
+  .band-remove {
+    opacity: 1;
+  }
+}
+
+.track-row > .band-oval {
+  padding: 0 14px;
+}
+.add-band {
+  border: 1.5px dashed var(--field-rule);
+  border-radius: 999px;
+}
+
+/* Items: each one a block on the sheet, with its timing mark in the margin */
+
+.items {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.items:focus {
+  outline: none;
+}
+
+.item {
+  position: relative;
+  padding: 16px 0 18px;
+  border-bottom: 1px solid var(--dropout-line);
+  background: var(--paper);
+  transition: background-color 600ms ease-out;
+}
+.item[data-moved] {
+  background: var(--moved);
+  box-shadow: -12px 0 0 0 var(--moved), 12px 0 0 0 var(--moved);
+}
+.item[data-dragging] {
+  z-index: 2;
+  background: var(--paper);
+  box-shadow: -12px 0 0 0 var(--paper), 12px 0 0 0 var(--paper), 0 14px 30px -10px rgb(22 24 27 / 0.35);
+}
+
+.timing-mark {
+  position: absolute;
+  top: 18px;
+  left: calc(-1 * var(--margin) - var(--gutter) + 14px);
+  width: 14px;
+  height: 32px;
+  padding: 0;
+  border: 0;
+  border-radius: 1px;
+  background: var(--ink);
+  cursor: grab;
+  touch-action: none;
+}
+.timing-mark::after {
+  /* A larger target than the mark itself, for fingers. */
+  content: '';
+  position: absolute;
+  inset: -8px -10px;
+}
+.timing-mark:hover {
+  background: var(--dropout);
+}
+.item[data-dragging] .timing-mark {
+  cursor: grabbing;
+  background: var(--dropout);
+}
+
+.item-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 4px;
+}
+.item-number {
+  font-size: 0.9rem;
+  font-variant-numeric: tabular-nums;
+}
+.item-actions {
+  display: flex;
+  gap: 2px;
+}
+
+.item-fields {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 12rem);
+  gap: 0 24px;
+}
+
+.write.item-name {
+  font-size: 1.2rem;
+  font-weight: 650;
+  font-stretch: 92%;
+}
+
+/* Guidance: a bubble per band that fills once something is written beside it */
+
+.guidance {
+  border: 0;
+  margin: 8px 0 0;
+  padding: 0;
+  min-width: 0;
+}
+.guidance legend {
+  padding: 0;
+  margin-bottom: 4px;
+}
+
+.band-row {
+  display: grid;
+  grid-template-columns: 4.25rem minmax(0, 1fr);
+  align-items: start;
+  gap: 14px;
+  padding: 4px 0;
+}
+
+.bubble {
+  display: grid;
+  place-items: center;
+  height: 30px;
+  margin-top: 3px;
+  border: 1.5px solid var(--dropout);
+  border-radius: 50%;
+  font-size: 0.82rem;
+  font-weight: 650;
+  font-variant-numeric: tabular-nums;
+  color: var(--dropout);
+  cursor: text;
+  transition: background-color 220ms cubic-bezier(0.16, 1, 0.3, 1), color 220ms ease-out, border-color 220ms ease-out;
+}
+.bubble[data-filled] {
+  background: var(--ink);
+  border-color: var(--ink);
+  color: var(--paper);
+}
+.item .bubble:not([data-filled]) {
+  border-color: var(--problem);
+  border-style: dashed;
+  color: var(--problem);
+}
+
+.guidance-text {
+  font-size: 0.97rem;
+}
+
+.add-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 18px;
+  min-height: 44px;
+  padding: 0 18px;
+  border: 1.5px dashed var(--dropout);
+  border-radius: 6px;
+  background: transparent;
+  color: var(--dropout);
+  font-weight: 650;
+  font-stretch: 90%;
+}
+.add-item:hover {
+  background: var(--dropout-wash);
+  border-style: solid;
+}
+
+.sheet-foot::before,
+.sheet-foot::after {
+  content: '';
+  position: absolute;
+  bottom: 14px;
+  width: 12px;
+  height: 12px;
+  background: var(--ink);
+}
+.sheet-foot::before {
+  left: 14px;
+}
+.sheet-foot::after {
+  right: 14px;
+}
+
+.sheet-foot {
+  margin-top: 48px;
+  padding-top: 14px;
+  border-top: 2px solid var(--dropout);
+  color: var(--ink-soft);
+  font-size: 0.86rem;
+}
+.sheet-foot p {
+  margin: 0 0 8px;
+  max-width: 70ch;
+}
+
+/* The read-out: the scanner's reading of the sheet, fixed to the bottom */
+
+.readout {
+  position: fixed;
+  inset: auto 0 0 0;
+  z-index: 10;
+  background: var(--ink);
+  color: var(--paper);
+  padding: 10px var(--gutter) calc(10px + env(safe-area-inset-bottom));
+}
+.readout ::selection {
+  background: var(--dropout);
+  color: var(--paper);
+}
+.readout-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px 20px;
+  max-width: 880px;
+  margin: 0 auto;
+}
+.read {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px 18px;
+  margin: 0;
+  font-family: var(--mono);
+  font-size: 0.86rem;
+  font-variant-numeric: tabular-nums;
+}
+.tick-in {
+  animation: tick-in 420ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+@keyframes tick-in {
+  from {
+    transform: translateY(-6px);
+    opacity: 0.2;
+  }
+}
+.read .ok {
+  color: #9fd8c7;
+}
+.problems-toggle {
+  border: 0;
+  border-radius: 4px;
+  padding: 4px 10px;
+  background: var(--problem);
+  color: #fff;
+  font-family: var(--mono);
+  font-size: 0.86rem;
+}
+.problems-toggle:hover {
+  background: #cc2a1d;
+}
+.readout-actions {
+  display: flex;
+  gap: 10px;
+}
+.readout .button.primary {
+  background: var(--paper);
+  color: var(--ink);
+  border-color: var(--paper);
+}
+.readout .button.primary:hover {
+  background: #dfe9e5;
+}
+.readout .button.secondary {
+  color: var(--paper);
+  border-color: rgb(253 253 250 / 0.55);
+}
+.readout .button.secondary:hover {
+  background: rgb(253 253 250 / 0.1);
+}
+.readout :focus-visible,
+.readout .button.secondary:focus-within {
+  outline-color: #9fd8c7;
+}
+
+.problem-list {
+  max-width: 880px;
+  max-height: min(40vh, 320px);
+  overflow-y: auto;
+  margin: 0 auto 10px;
+  padding: 12px 16px;
+  background: var(--paper);
+  color: var(--ink);
+  border-radius: 6px;
+}
+.problem-list ul {
+  margin: 6px 0 0;
+  padding-left: 18px;
+}
+.problem-list li {
+  margin: 4px 0;
+}
+.problem-list .link {
+  color: var(--problem);
+}
+
+.notice {
+  max-width: 880px;
+  margin: 8px auto 0;
+  font-size: 0.86rem;
+}
+.notice[data-kind='problem'] {
+  color: #ffb4a9;
+}
+.notice[data-kind='ok'] {
+  color: #9fd8c7;
+}
+.notice .undo {
+  margin-left: 12px;
+  color: var(--paper);
+  font-weight: 600;
+}
+
+@media (max-width: 640px) {
+  .sheet {
+    box-shadow: none;
+  }
+  .item-fields {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .band-row {
+    grid-template-columns: 3.5rem minmax(0, 1fr);
+    gap: 10px;
+  }
+  .readout-actions {
+    width: 100%;
+  }
+  .readout-actions .button {
+    flex: 1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0ms !important;
+    animation-duration: 0ms !important;
+  }
+}
